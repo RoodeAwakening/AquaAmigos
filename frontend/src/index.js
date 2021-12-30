@@ -10,12 +10,12 @@ import configureStore from './store';
 const store = configureStore();
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <Suspense fallback="... is loading">
-        <App />
-      </Suspense>
-    </Provider>
-  </React.StrictMode>,
+
+  <Provider store={store}>
+    <Suspense fallback="... is loading">
+      <App />
+    </Suspense>
+  </Provider>,
+
   document.getElementById('root'),
 );
