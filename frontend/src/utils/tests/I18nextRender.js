@@ -3,7 +3,7 @@ import i18next from 'i18next';
 import React from 'react';
 
 
-function ForTesting() {
+function I18nextRender() {
   // i18next setup
   //  disable eslint
   //
@@ -12,10 +12,10 @@ function ForTesting() {
     <div>
       <h2> this is great </h2>
       <div>
-        <h1>{ i18next.t('order_cancelled_product_type') }</h1>
+        <h1>{ i18next.t('this_is_a_test_phrase') }</h1>
       </div>
     </div>
   );
 }
 
-export default ForTesting;
+export default I18nextRender;

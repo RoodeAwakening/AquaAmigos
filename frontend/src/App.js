@@ -10,7 +10,7 @@ import ProtectedRoute from './components/auth/ProtectedRoute';
 import UsersList from './components/UsersList';
 import User from './components/User';
 import { authenticate } from './store/session';
-import ForTesting from './components/ForTesting/ForTesting';
+import ForTesting from './utils/tests/I18nextRender';
 
 function App() {
   const [loaded, setLoaded] = useState(false);

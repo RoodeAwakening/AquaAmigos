@@ -1,3 +1,5 @@
-const translation = { order_cancelled_product_type: "This order was canceled. The Product Type isn't in the latest version of your agreement." };
+const translation = {
+  this_is_a_test_phrase: 'this is only a test phrase',
+};
 
 export default translation;
