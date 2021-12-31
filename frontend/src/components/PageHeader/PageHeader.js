@@ -1,7 +1,8 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import styles from './PageHeader.module.css';
-import logo2 from '../../images/logo2.png';
+// import logo2 from '../../images/logo2.png';
+import logo from '../../images/logo.jpg';
 
 function PageHeader() {
   return (
@@ -11,11 +12,15 @@ function PageHeader() {
       </div>
       <div className={styles.pageHeader_middle}>
         <div className={styles.pageHeader_middle_logo}>
-          <img src={logo2} alt="logo" />
+          {/* <img src={logo2} alt="logo" /> */}
+          <img src={logo} alt="logo" />
         </div>
         <div className={styles.pageHeader_middle_user_icon}>
           {/* { i18next.t(msg_edit_profile) } */}
-          <h2>user placeholder</h2>
+          <span>
+            <h2>user</h2>
+            <h2>placeholder</h2>
+          </span>
         </div>
       </div>
       <div className={styles.pageHeader_nav}>
