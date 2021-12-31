@@ -25,6 +25,6 @@ describe(' Page Header Snapshot', () => {
   });
 
   it(' Should render the page header and should match snapshot', () => {
-    expect(toJson(PageHeader)).toMatchSnapshot();
+    expect(toJson(pageHeader)).toMatchSnapshot();
   });
 });
