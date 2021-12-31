@@ -6417,6 +6417,11 @@
     "slash" "^3.0.0"
     "which-pm-runs" "^1.0.0"
 
+"i18n-js@^3.8.0":
+  "integrity" "sha1-uP1rEuHYjLcfmAbCm8p8McAS5QQ="
+  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/i18n-js/-/i18n-js-3.8.0.tgz"
+  "version" "3.8.0"
+
 "i18next-browser-languagedetector@^6.1.2":
   "integrity" "sha1-aFZaKLkpy8mKtqVoJu8vrw6Sf/g="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/i18next-browser-languagedetector/-/i18next-browser-languagedetector-6.1.2.tgz"
