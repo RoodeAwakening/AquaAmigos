@@ -14,14 +14,14 @@ function setup() {
 }
 
 describe(' Page Header Snapshot', () => {
-  let layout;
+  let pageHeader;
 
   beforeEach(() => {
-    layout = setup();
+    pageHeader = setup();
   });
 
   afterEach(() => {
-    layout.unmount();
+    pageHeader.unmount();
   });
 
   it(' Should render the page header and should match snapshot', () => {
