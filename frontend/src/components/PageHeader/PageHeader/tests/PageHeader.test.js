@@ -4,7 +4,7 @@ import { shallow, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import toJson from 'enzyme-to-json';
 
-import PageHeader from './PageHeader/PageHeader';
+import PageHeader from '../PageHeader';
 
 configure({ adapter: new Adapter() });
 global.confirm = () => true;

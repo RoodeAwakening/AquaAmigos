@@ -3,6 +3,7 @@ import NavBar from '../NavBar/NavBar';
 import styles from './PageHeader.module.css';
 // import logo2 from '../../images/logo2.png';
 import logo from '../../../images/logo.jpg';
+import UserIconBlock from '../UserIconBlock/UserIconBlock';
 
 function PageHeader() {
   return (
@@ -17,10 +18,7 @@ function PageHeader() {
         </div>
         <div className={styles.pageHeader_middle_user_icon}>
           {/* { i18next.t(msg_edit_profile) } */}
-          <span>
-            <h2>user</h2>
-            <h2>placeholder</h2>
-          </span>
+          <UserIconBlock />
         </div>
       </div>
       <div className={styles.pageHeader_nav}>
