@@ -8,8 +8,8 @@ import SignUpForm from './components/auth/SignUpForm';
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import UsersList from './components/UsersList';
 import User from './components/User';
-import { authenticate } from './store/session';
-import PageHeader from './components/PageHeader/PageHeader';
+import * as sessionActions from './actions/sessionActions';
+
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     (async () => {
-      await dispatch(authenticate());
+      await dispatch(sessionActions.authenticate());
       setLoaded(true);
     })();
   }, [dispatch]);
