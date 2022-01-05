@@ -31,7 +31,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route path="/" exact>
-          <h1>My Home Page</h1>
+          <h2>my home page</h2>
         </Route>
         <Route path="/login" exact>
           <LoginForm />
