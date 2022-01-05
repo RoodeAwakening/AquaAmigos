@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // eslint-disable-next-line import/no-unresolved
-import { useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import LoginForm from './components/auth/LoginForm';
 import SignUpForm from './components/auth/SignUpForm';
 import ProtectedRoute from './components/auth/ProtectedRoute';
@@ -14,6 +14,8 @@ import PageHeader from './components/PageHeader/PageHeader/PageHeader';
 function App() {
   const [loaded, setLoaded] = useState(false);
   const dispatch = useDispatch();
+
+  const sessionUser = useSelector(state => state.session.user);
 
   useEffect(() => {
     (async () => {
@@ -28,7 +30,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <PageHeader />
+      <PageHeader {...sessionUser} />
       <Switch>
         <Route path="/" exact>
           <h2>my home page</h2>

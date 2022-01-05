@@ -1,0 +1,23 @@
+.UserIconBlock_container{
+  display: flex;
+}
+
+.UserIconBlock_icon img{
+  width: auto;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.UserIconBlock_name{
+  margin-left: 1rem;
+  font-size: .5rem;
+  font-weight: bold;
+}
+
+.UserIconBlock_logout_button button{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: .75rem;
+  font-weight: bold;
+  cursor: pointer;
+}

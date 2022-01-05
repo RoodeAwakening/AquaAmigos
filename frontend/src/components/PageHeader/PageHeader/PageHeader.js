@@ -5,7 +5,7 @@ import styles from './PageHeader.module.css';
 import logo from '../../../images/logo.jpg';
 import UserIconBlock from '../UserIconBlock/UserIconBlock';
 
-function PageHeader() {
+function PageHeader(sessionUser) {
   return (
     <div className={styles.pageHeader_container}>
       <div className={styles.pageHeader_top}>
@@ -18,7 +18,7 @@ function PageHeader() {
         </div>
         <div className={styles.pageHeader_middle_user_icon}>
           {/* { i18next.t(msg_edit_profile) } */}
-          <UserIconBlock />
+          <UserIconBlock {...sessionUser} />
         </div>
       </div>
       <div className={styles.pageHeader_nav}>
