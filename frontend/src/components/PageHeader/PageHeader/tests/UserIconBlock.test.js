@@ -10,17 +10,15 @@ configure({ adapter: new Adapter() });
 
 describe('User Icon Block in header', () => {
   let wrapper;
-  let userIconBlock;
   let userIcon;
   let userName;
-  let logoutButton;
+  let signupLoginBlock;
 
   beforeEach(() => {
     wrapper = mount(<UserIconBlock />);
-    userIconBlock = wrapper.find('#userIconBlock_container');
     userIcon = wrapper.find('#userIconBlock_icon_user');
     userName = wrapper.find('#userIconBlock_name');
-    logoutButton = wrapper.find('#userIconBlock_logout_button');
+    signupLoginBlock = wrapper.find('#userIconBlock_signUp_signIn');
   });
 
   afterEach(() => {
@@ -28,21 +26,17 @@ describe('User Icon Block in header', () => {
     wrapper.setProps({ });
   });
 
-  it('Should render an icon', () => {
-    // user mock data to log user in and test
+  it('Should render an image', () => {
     wrapper.setProps({ user: mockUser });
-    expect(userIconBlock.length).toEqual(1);
-  });
-
-  it('Should render user icon', () => {
-    expect(userIcon.length).toEqual(1);
+    expect(userIcon.find('img').length).toEqual(1);
+    // user mock data to log user in and test
   });
 
   it('Should render user name', () => {
     expect(userName.length).toEqual(1);
   });
 
-  it('Should render logout button', () => {
-    expect(logoutButton.length).toEqual(1);
+  it('Should render login and signup buttons when not logged in', () => {
+    expect(signupLoginBlock.length).toEqual(1);
   });
 });
