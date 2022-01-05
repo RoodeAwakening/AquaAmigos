@@ -75,7 +75,22 @@ const translation = {
   msg_news_post_id: 'News Post ID',
   msg_news_post_title: 'News Post Title',
   msg_news_post_date: 'News Post Date',
-
+  msg_edit_profile: 'Edit Your Profile',
+  msg_edit_profile_success: 'Your profile has been updated successfully',
+  msg_edit_profile_error: 'There was an error updating your profile',
+  msg_edit_profile_error_invalid_email: 'The email address you entered is invalid',
+  msg_edit_profile_error_invalid_password: 'The password you entered is invalid',
+  msg_edit_profile_error_invalid_password_confirm: 'The password and confirm password fields do not match',
+  msg_edit_profile_error_invalid_first_name: 'The first name you entered is invalid',
+  msg_edit_profile_error_invalid_last_name: 'The last name you entered is invalid',
+  msg_edit_profile_error_invalid_username: 'The username you entered is invalid',
+  msg_edit_profile_error_invalid_username_taken: 'The username you entered is already taken',
+  msg_edit_profile_error_invalid_username_length: 'The username you entered is too short',
+  msg_edit_profile_error_invalid_username_length_max: 'The username you entered is too long',
+  msg_edit_profile_error_invalid_username_length_min: 'The username you entered is too short',
+  msg_edit_profile_error_invalid_username_length_range: 'The username you entered must be between {min} and {max} characters',
+  msg_edit_profile_error_invalid_username_length_range_exclusive_min: 'The username you entered must be more than {min} characters',
+  msg_edit_profile_error_invalid_username_length_range_exclusive_max: 'The username you entered must be less than {max} characters',
 
 };
 
