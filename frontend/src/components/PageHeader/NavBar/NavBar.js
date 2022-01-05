@@ -1,6 +1,6 @@
+import i18next from 'i18next';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import LogoutButton from '../auth/LogoutButton';
 import styles from './NavBar.module.css';
 
 const NavBar = () => {
@@ -9,27 +9,15 @@ const NavBar = () => {
       <ul>
         <li>
           <NavLink to="/" exact activeClassName="active">
-            Home
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/login" exact activeClassName="active">
-            Login
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/sign-up" exact activeClassName="active">
-            Sign Up
+            {i18next.t('msg_home')}
           </NavLink>
         </li>
         <li>
           <NavLink to="/users" exact activeClassName="active">
-            Users
+            {i18next.t('msg_users')}
           </NavLink>
         </li>
-        <li>
-          <LogoutButton />
-        </li>
+
       </ul>
     </nav>
   );

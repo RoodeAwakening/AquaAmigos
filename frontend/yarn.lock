@@ -10263,7 +10263,7 @@
     "object.assign" "^4.1.0"
     "reflect.ownkeys" "^0.2.0"
 
-"prop-types@^15.0.0", "prop-types@^15.6.2", "prop-types@^15.7.2":
+"prop-types@^15.0.0", "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.0":
   "integrity" "sha1-0jfmJMRamEbkafXzERf5cAF/9Yg="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/prop-types/-/prop-types-15.8.0.tgz"
   "version" "15.8.0"
