@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { logout } from '../../store/session';
+import { logout } from '../../actions/sessionActions';
 
 const LogoutButton = () => {
   const dispatch = useDispatch();
