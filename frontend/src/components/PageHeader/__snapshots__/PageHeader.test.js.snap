@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Page Header Snapshot  Should render the page header and should match snapshot 1`] = `
+<div
+  className="pageHeader_container"
+>
+  <div
+    className="pageHeader_top"
+  />
+  <div
+    className="pageHeader_middle"
+  >
+    <div
+      className="pageHeader_middle_logo"
+    >
+      <img
+        alt="logo"
+        src="logo.jpg"
+      />
+    </div>
+    <div
+      className="pageHeader_middle_user_icon"
+    >
+      <span>
+        <h2>
+          user
+        </h2>
+        <h2>
+          placeholder
+        </h2>
+      </span>
+    </div>
+  </div>
+  <div
+    className="pageHeader_nav"
+  >
+    <NavBar />
+  </div>
+</div>
+`;
