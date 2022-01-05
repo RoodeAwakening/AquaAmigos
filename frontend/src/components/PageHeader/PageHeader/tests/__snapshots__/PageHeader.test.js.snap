@@ -21,7 +21,14 @@ exports[` Page Header Snapshot  Should render the page header and should match s
     <div
       className="pageHeader_middle_user_icon"
     >
-      <UserIconBlock />
+      <UserIconBlock
+        sessionUser={
+          Object {
+            "id": null,
+            "username": "",
+          }
+        }
+      />
     </div>
   </div>
   <div
