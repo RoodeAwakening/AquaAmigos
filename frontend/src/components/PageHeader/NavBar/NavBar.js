@@ -9,12 +9,44 @@ const NavBar = () => {
       <ul>
         <li>
           <NavLink to="/" exact activeClassName="active">
-            {i18next.t('msg_home')}
+            <button type="button" className={styles.btn}>
+              {i18next.t('msg_home')}
+            </button>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/topics" exact activeClassName="active">
+            <button type="button" className={styles.btn}>
+              {i18next.t('msg_message_board')}
+            </button>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/media" exact activeClassName="active">
+            <button type="button" className={styles.btn}>
+              {i18next.t('msg_media')}
+            </button>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/events" exact activeClassName="active">
+            <button type="button" className={styles.btn}>
+              {i18next.t('msg_events')}
+            </button>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/about-us" exact activeClassName="active">
+            <button type="button" className={styles.btn}>
+              {i18next.t('msg_about')}
+            </button>
           </NavLink>
         </li>
         <li>
           <NavLink to="/users" exact activeClassName="active">
-            {i18next.t('msg_users')}
+            <button type="button" className={styles.btn}>
+              {i18next.t('msg_members')}
+            </button>
           </NavLink>
         </li>
 

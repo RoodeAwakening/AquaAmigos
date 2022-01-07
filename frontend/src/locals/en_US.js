@@ -32,6 +32,7 @@ const translation = {
   msg_contact: 'Contact',
   msg_merchandise: 'Merchandise',
   msg_media: 'Media',
+  msg_message_board: 'Message Board',
   msg_links: 'Links',
   msg_events: 'Events',
   msg_cart: 'Cart',
