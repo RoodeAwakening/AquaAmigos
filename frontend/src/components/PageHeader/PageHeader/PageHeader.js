@@ -24,7 +24,7 @@ function PageHeader(sessionUser) {
           </div>
         </div>
         <div className={styles.pageHeader_nav}>
-          <NavBar />
+          <NavBar {...sessionUser} />
         </div>
       </div>
     </div>

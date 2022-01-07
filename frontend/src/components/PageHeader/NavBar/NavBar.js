@@ -1,6 +1,7 @@
 import i18next from 'i18next';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import MembersOnly from '../../security/MembersOnly/MembersOnly';
 import styles from './NavBar.module.css';
 
 const NavBar = () => {
@@ -14,13 +15,15 @@ const NavBar = () => {
             </button>
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/topics" exact activeClassName="active">
-            <button type="button" className={styles.btn}>
-              {i18next.t('msg_message_board')}
-            </button>
-          </NavLink>
-        </li>
+        <MembersOnly>
+          <li>
+            <NavLink to="/topics" exact activeClassName="active">
+              <button type="button" className={styles.btn}>
+                {i18next.t('msg_message_board')}
+              </button>
+            </NavLink>
+          </li>
+        </MembersOnly>
         <li>
           <NavLink to="/media" exact activeClassName="active">
             <button type="button" className={styles.btn}>
@@ -42,13 +45,15 @@ const NavBar = () => {
             </button>
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/users" exact activeClassName="active">
-            <button type="button" className={styles.btn}>
-              {i18next.t('msg_members')}
-            </button>
-          </NavLink>
-        </li>
+        <MembersOnly>
+          <li>
+            <NavLink to="/users" exact activeClassName="active">
+              <button type="button" className={styles.btn}>
+                {i18next.t('msg_members')}
+              </button>
+            </NavLink>
+          </li>
+        </MembersOnly>
 
       </ul>
     </nav>

@@ -1,5 +1,7 @@
 .NavBar_container {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 5rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .NavBar_container ul {
@@ -7,15 +9,16 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
   background-color: #fff;
   border-bottom: 1px solid #e5e5e5;
+  margin: .5rem 0rem;
 }
 
 .NavBar_container ul li {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: .5rem .5rem;
+
 }
 
 .btn {
