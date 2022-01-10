@@ -1,0 +1,14 @@
+.Carousel_container img{
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+/* align image in center */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Carousel_container{
+  width: 100%;
+  height: 100%;
+}

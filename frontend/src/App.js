@@ -12,6 +12,7 @@ import User from './components/User';
 import PageHeader from './components/PageHeader/PageHeader/PageHeader';
 
 import * as sessionActions from './actions/sessionActions';
+import Home from './components/Home/Home/Home';
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
       <PageHeader {...sessionUser} />
       <Switch>
         <Route path="/" exact>
-          <h2>my home page</h2>
+          <Home />
         </Route>
         <Route path="/login" exact>
           <LoginForm />
