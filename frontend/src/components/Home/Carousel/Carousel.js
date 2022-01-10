@@ -1,9 +1,11 @@
 import React from 'react';
 import Slider from 'react-slick';
 import styles from './Carousel.module.css';
-
+import mockEvent from '../../../mocks/Event';
 
 function Carousel() {
+  const events = mockEvent;
+
   const settings = {
     dots: true,
     infinite: true,
@@ -16,7 +18,7 @@ function Carousel() {
     centerPadding: '60px',
     className: 'center',
     adaptiveHeight: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     pauseOnHover: true,
     pauseOnFocus: true,
     pauseOnDotsHover: true,
@@ -27,11 +29,32 @@ function Carousel() {
     useCSS: true,
   };
 
+  const renderEvents = () => {
+    return Object.keys(events).map((key) => {
+      const event = events[key];
+      return (
+        <div key={event.id} className={styles.carousel_event_container}>
+          <div className={styles.carousel_event_image_container}>
+            <img src={event.image} alt="event" />
+          </div>
+          <div className={styles.carousel_event_info_container}>
+            <div className={styles.carousel_event_title}>{event.title}</div>
+            <div className={styles.carousel_event_description}>{event.description}</div>
+            <div className={styles.carousel_event_button}>
+              <button type="button">
+                View Event
+              </button>
+            </div>
+
+          </div>
+        </div>
+      );
+    });
+  };
+
   return (
     <Slider {...settings} className={styles.Carousel_container}>
-      <div><img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg" alt="test" /></div>
-      <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzOSOH5Sxw9BVvfu1N9O-eif5lhIpnBEeTfdXRVTBGftABsseRTMkHSnoRkN4XttzRbbo&usqp=CAU" alt="test" /></div>
-      <div><img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg" alt="test" /></div>
+      {renderEvents()}
     </Slider>
   );
 }

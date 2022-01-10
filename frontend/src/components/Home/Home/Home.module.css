@@ -8,10 +8,10 @@
 }
 
 .Carousel_container{
-  width: 50%;
-  height: 250px;
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
 }
