@@ -23,15 +23,12 @@
 }
 
 .carousel_event_image_container img{
-/* fill the space and stretch image */
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* show top of photo */
 }
 
 .carousel_event_info_container{
-/* place above all other elements */
   position: absolute;
   top: 25%;
   padding-left: 5rem;
