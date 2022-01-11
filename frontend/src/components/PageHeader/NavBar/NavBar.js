@@ -1,6 +1,6 @@
+import { NavLink } from 'react-router-dom';
 import i18next from 'i18next';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import MembersOnly from '../../security/MembersOnly/MembersOnly';
 import styles from './NavBar.module.css';
 
