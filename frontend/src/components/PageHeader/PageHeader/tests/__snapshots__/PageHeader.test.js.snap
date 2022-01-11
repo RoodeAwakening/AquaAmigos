@@ -8,36 +8,29 @@ exports[` Page Header Snapshot  Should render the page header and should match s
     className="pageHeader_container"
   >
     <div
-      className="pageHeader_top"
-    />
-    <div
-      className="pageHeader_middle"
+      className="pageHeader_middle_logo"
     >
-      <div
-        className="pageHeader_middle_logo"
-      >
-        <img
-          alt="logo"
-          src="logo.jpg"
-        />
-      </div>
-      <div
-        className="pageHeader_middle_user_icon"
-      >
-        <UserIconBlock
-          sessionUser={
-            Object {
-              "id": null,
-              "username": "",
-            }
-          }
-        />
-      </div>
+      <img
+        alt="logo"
+        src="logo.jpg"
+      />
     </div>
     <div
       className="pageHeader_nav"
     >
       <NavBar />
+    </div>
+    <div
+      className="pageHeader_middle_user_icon"
+    >
+      <UserIconBlock
+        sessionUser={
+          Object {
+            "id": null,
+            "username": "",
+          }
+        }
+      />
     </div>
   </div>
 </div>
