@@ -1,0 +1,79 @@
+.NavBar_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.NavBar_container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  margin: .5rem 0rem;
+}
+
+.NavBar_container ul li {
+  list-style: none;
+  margin: .5rem .5rem;
+
+}
+
+.btn {
+  text-transform: uppercase;
+  border-radius: 10rem;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  transition: all 0.2;
+  position: relative;
+  font-size: 0.6rem;
+}
+.btn:link,
+.btn .bnt:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2;
+  position: relative;
+  font-size: 1.6rem;
+}
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.226);
+}
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.btn:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.226);
+}
+.btn--white {
+  background-color: #fff f;
+  color: #4e4949;
+}
+.btn--white::after {
+  background-color: #fff f;
+}
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+.btn--animated {
+  animation: moveInButton 0.5s ease-out 0.75s;
+  /* applies the 0% to the object */
+  animation-fill-mode: backwards;
+}

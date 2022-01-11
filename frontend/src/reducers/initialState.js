@@ -6,4 +6,7 @@ export default {
     lastName: 'Clark',
     role: 'admin',
   },
+  session: {
+    user: null,
+  },
 };

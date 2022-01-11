@@ -1,0 +1,42 @@
+.pageHeader_container{
+  /* blue gradient from the center out */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  
+}
+
+.pageHeader_top{
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+
+.pageHeader_middle_user_icon{
+  
+}
+
+.pageHeader_middle_logo img{
+  width: auto;
+  height: 7em;
+  
+}
+
+.pageHeader_nav{
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px){
+  .pageHeader_middle{
+    display: flex;
+    justify-content: space-around;
+    background-image: none;
+  }
+
+  .pageHeader_middle_user_icon{
+    position: relative;
+  }
+}
+  

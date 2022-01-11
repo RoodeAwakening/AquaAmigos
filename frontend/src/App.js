@@ -2,22 +2,28 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // eslint-disable-next-line import/no-unresolved
-import { useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import LoginForm from './components/auth/LoginForm';
 import SignUpForm from './components/auth/SignUpForm';
-import NavBar from './components/NavBar';
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import UsersList from './components/UsersList';
 import User from './components/User';
-import { authenticate } from './store/session';
+
+import PageHeader from './components/PageHeader/PageHeader/PageHeader';
+
+import * as sessionActions from './actions/sessionActions';
+import Home from './components/Home/Home/Home';
+
 
 function App() {
   const [loaded, setLoaded] = useState(false);
   const dispatch = useDispatch();
 
+  const sessionUser = useSelector(state => state.session.user);
+
   useEffect(() => {
     (async () => {
-      await dispatch(authenticate());
+      await dispatch(sessionActions.authenticate());
       setLoaded(true);
     })();
   }, [dispatch]);
@@ -28,8 +34,11 @@ function App() {
 
   return (
     <BrowserRouter>
-      <NavBar />
+      <PageHeader {...sessionUser} />
       <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
         <Route path="/login" exact>
           <LoginForm />
         </Route>
@@ -41,9 +50,6 @@ function App() {
         </ProtectedRoute>
         <ProtectedRoute path="/users/:userId" exact>
           <User />
-        </ProtectedRoute>
-        <ProtectedRoute path="/" exact>
-          <h1>My Home Page</h1>
         </ProtectedRoute>
       </Switch>
     </BrowserRouter>
