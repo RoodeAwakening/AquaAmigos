@@ -1,14 +1,14 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { Route, Redirect } from 'react-router-dom';
 
 const ProtectedRoute = (props) => {
   const user = useSelector(state => state.session.user);
+  // todo add user role admin
   return (
-    <Route {...props}>
-      {(user) ? props.children : <Redirect to="/login" />}
-    </Route>
+    <div>
+      {(user) ? props.children : null }
+    </div>
   );
 };
 
