@@ -19,6 +19,7 @@ ENV SQLALCHEMY_ECHO=True
 
 EXPOSE 8000
 
+# WORKDIR /backend/app
 WORKDIR /var/www
 COPY . .
 COPY --from=build-stage /frontend/build/* app/static/
@@ -27,5 +28,5 @@ COPY --from=build-stage /frontend/build/* app/static/
 RUN pip install -r requirements.txt
 RUN pip install psycopg2
 
-# Run flask environment
-CMD gunicorn backend:app
+# Run flask environment 
+CMD gunicorn app:app
