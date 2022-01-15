@@ -1,5 +1,5 @@
-const mockEvent = {
-  event1: {
+export default [
+  {
     id: '1424',
     title: 'First Dive of the year',
     description: 'We all have a dream to dive into the ocean',
@@ -9,7 +9,7 @@ const mockEvent = {
     created_at: '2020-05-06T14:52:37.000Z',
     updated_at: '2020-05-06T14:52:37.000Z',
   },
-  event2: {
+  {
     id: '7379',
     title: 'A really cool trip we took',
     description: 'No way will you believe what we saw on this dive',
@@ -19,7 +19,7 @@ const mockEvent = {
     created_at: '2020-05-06T14:52:37.000Z',
     updated_at: '2020-05-06T14:52:37.000Z',
   },
-  event3: {
+  {
     id: '4593',
     title: 'Can you say tacos?',
     description: 'Its not only about diving, some times its about tacos.',
@@ -29,7 +29,7 @@ const mockEvent = {
     created_at: '2020-05-06T14:52:37.000Z',
     updated_at: '2020-05-06T14:52:37.000Z',
   },
-  event4: {
+  {
     id: '6464',
     title: 'Join us for a fun night',
     description: 'We are going to have a fun night with friends',
@@ -40,6 +40,4 @@ const mockEvent = {
     updated_at: '2020-05-06T14:52:37.000Z',
   },
 
-};
-
-export default mockEvent;
+];
