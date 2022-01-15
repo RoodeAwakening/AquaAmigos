@@ -54,6 +54,15 @@ const NavBar = () => {
             </NavLink>
           </li>
         </MembersOnly>
+        <MembersOnly>
+          <li>
+            <NavLink to="/email" exact activeClassName="active">
+              <button type="button" className={styles.btn}>
+                {i18next.t('msg_email')}
+              </button>
+            </NavLink>
+          </li>
+        </MembersOnly>
 
       </ul>
     </nav>
