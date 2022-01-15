@@ -1,7 +1,7 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* Header */
 .header__left img {
@@ -36,7 +36,7 @@
   border-radius: 5px;
 }
 
-.material-icons {
+.material_icons {
   color: gray;
 }
 
@@ -136,10 +136,10 @@
   height: 100vh;
 }
 
-body {
+/* body {
   height: 100vh;
   overflow-y: hidden;
-}
+} */
 
 /* email list */
 .emailList {

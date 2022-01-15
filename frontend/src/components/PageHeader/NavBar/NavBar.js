@@ -39,6 +39,13 @@ const NavBar = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/news" exact activeClassName="active">
+            <button type="button" className={styles.btn}>
+              {i18next.t('msg_news')}
+            </button>
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/about-us" exact activeClassName="active">
             <button type="button" className={styles.btn}>
               {i18next.t('msg_about')}

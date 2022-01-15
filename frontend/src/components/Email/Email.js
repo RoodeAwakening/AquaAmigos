@@ -8,7 +8,7 @@ function Email() {
         <meta charset="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {/*  Google Font Icons  */}
+        {/* Google Font Icons  */}
         <link
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"
@@ -17,14 +17,14 @@ function Email() {
         <title>Final - Gmail Clone</title>
       </head>
       <body>
-        {/*  Header Starts  */}
+        {/* Header Starts  */}
         <div className="header">
           <div className="header__left">
             <span className="material-icons"> menu </span>
-            {/* <img
+            <img
               src="https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png"
               alt=""
-            /> */}
+            />
           </div>
 
           <div className="header__middle">
@@ -39,11 +39,11 @@ function Email() {
             <span className="material-icons"> account_circle </span>
           </div>
         </div>
-        {/*  Header Ends  */}
+        {/* Header Ends  */}
 
-        {/*  Main Body Starts  */}
+        {/* Main Body Starts  */}
         <div className="main__body">
-          {/*  Sidebar Starts  */}
+          {/* Sidebar Starts  */}
           <div className="sidebar">
             <button type="button" className="sidebar__compose">
               <span className="material-icons"> add </span>Compose
@@ -91,11 +91,11 @@ function Email() {
               </div>
             </div>
           </div>
-          {/*  Sidebar Ends  */}
+          {/* Sidebar Ends  */}
 
-          {/*  Email List Starts  */}
+          {/* Email List Starts  */}
           <div className="emailList">
-            {/*  Settings Starts  */}
+            {/* Settings Starts  */}
             <div className="emailList__settings">
               <div className="emailList__settingsLeft">
                 <input type="checkbox" />
@@ -110,9 +110,9 @@ function Email() {
                 <span className="material-icons"> settings </span>
               </div>
             </div>
-            {/*  Settings Ends  */}
+            {/* Settings Ends  */}
 
-            {/*  Section Starts  */}
+            {/* Section Starts  */}
             <div className="emailList__sections">
               <div className="section section__selected">
                 <span className="material-icons"> inbox </span>
@@ -129,11 +129,11 @@ function Email() {
                 <h4>Promotions</h4>
               </div>
             </div>
-            {/*  Section Ends  */}
+            {/* Section Ends  */}
 
-            {/*  Email List rows starts  */}
+            {/* Email List rows starts  */}
             <div className="emailList__list">
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -155,9 +155,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -179,9 +179,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -202,9 +202,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -225,9 +225,9 @@ function Email() {
 
                 <p className="emailRow__time">2am</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -249,9 +249,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -273,9 +273,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -296,9 +296,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -319,9 +319,9 @@ function Email() {
 
                 <p className="emailRow__time">2am</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -343,9 +343,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -367,9 +367,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -390,9 +390,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -413,9 +413,9 @@ function Email() {
 
                 <p className="emailRow__time">2am</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -437,9 +437,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -461,9 +461,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -484,9 +484,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -507,9 +507,9 @@ function Email() {
 
                 <p className="emailRow__time">2am</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -531,9 +531,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -555,9 +555,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -578,9 +578,9 @@ function Email() {
 
                 <p className="emailRow__time">10pm</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
 
-              {/*  Email Row Starts  */}
+              {/* Email Row Starts  */}
               <div className="emailRow">
                 <div className="emailRow__options">
                   <input type="checkbox" name="" id="" />
@@ -601,13 +601,13 @@ function Email() {
 
                 <p className="emailRow__time">2am</p>
               </div>
-              {/*  Email Row Ends  */}
+              {/* Email Row Ends  */}
             </div>
-            {/*  Email List rows Ends  */}
+            {/* Email List rows Ends  */}
           </div>
-          {/*  Email List Ends  */}
+          {/* Email List Ends  */}
         </div>
-        {/*  Main Body Ends  */}
+        {/* Main Body Ends  */}
       </body>
     </html>
   );
