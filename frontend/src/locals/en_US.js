@@ -77,6 +77,7 @@ const translation = {
   msg_news_post_id: 'News Post ID',
   msg_news_post_title: 'News Post Title',
   msg_news_post_date: 'News Post Date',
+  msg_news_post_writtenBy: 'Written By:',
   msg_edit_profile: 'Edit Your Profile',
   msg_edit_profile_success: 'Your profile has been updated successfully',
   msg_edit_profile_error: 'There was an error updating your profile',
