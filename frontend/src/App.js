@@ -13,6 +13,7 @@ import PageHeader from './components/PageHeader/PageHeader/PageHeader';
 
 import * as sessionActions from './actions/sessionActions';
 import Home from './components/Home/Home/Home';
+import Email from './components/Email/Email';
 
 
 function App() {
@@ -50,6 +51,9 @@ function App() {
         </ProtectedRoute>
         <ProtectedRoute path="/users/:userId" exact>
           <User />
+        </ProtectedRoute>
+        <ProtectedRoute path="/email" exact>
+          <Email />
         </ProtectedRoute>
       </Switch>
     </BrowserRouter>

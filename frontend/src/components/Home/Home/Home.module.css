@@ -9,6 +9,15 @@
 
 .Carousel_container{
   padding-top: 10px;
+  padding-bottom: 75px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RecentNews_container{
   width: 100%;
   height: auto;
   display: flex;
