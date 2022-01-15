@@ -59,6 +59,18 @@ exports[`Navbar Snapshot Should render the navbar to match the snapshot 1`] = `
       <NavLink
         activeClassName="active"
         exact={true}
+        to="/news"
+      >
+        <button
+          className="btn"
+          type="button"
+        />
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="active"
+        exact={true}
         to="/about-us"
       >
         <button
