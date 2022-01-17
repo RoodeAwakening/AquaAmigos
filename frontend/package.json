@@ -88,7 +88,8 @@
   "lint-staged": {
     "linters": {
       "*.js": [
-        "eslint"
+        "eslint",
+        "npm run testOnce"
       ]
     }
   },
