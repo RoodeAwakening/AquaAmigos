@@ -9,12 +9,14 @@ function RecentNews() {
     return articles.slice(0, 3).map((article) => {
       console.log(article);
       return (
-        <ContentBlock
-          title={article.title}
-          description={article.description}
-          articleImage={article.articleImage}
-          writtenBy={article.writtenBy}
-        />
+        <div className={styles.recentNews_article__container}>
+          <ContentBlock
+            title={article.title}
+            description={article.description}
+            articleImage={article.articleImage}
+            writtenBy={article.writtenBy}
+          />
+        </div>
       );
     });
   };
