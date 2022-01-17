@@ -82,7 +82,7 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "postcommit": "git update-index --again",
-      "pre-push": "node handleTestCoverage.js --verbos"
+      "pre-push": "node handleTestCoverage.js"
     }
   },
   "lint-staged": {
