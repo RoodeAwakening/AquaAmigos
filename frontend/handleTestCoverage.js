@@ -21,7 +21,7 @@ if (changes) {
   execSync('git stash -q --keep-index');
 }
 
-exec('npm run test -- --coverage --watchAll=false --verbose', (execErr, coverageTable, testResults) => {
+exec('npm run test -- --coverage --watchAll=false --silent --verbose', (execErr, coverageTable, testResults) => {
   // Display the test results and the coverage table
   console.log('testResults', testResults);
   console.log('coverageTable', coverageTable);
