@@ -81,7 +81,8 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "postcommit": "git update-index --again"
+      "postcommit": "git update-index --again",
+      "pre-push": "node handleTestCoverage.js"
     }
   },
   "lint-staged": {
