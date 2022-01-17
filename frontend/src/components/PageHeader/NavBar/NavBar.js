@@ -4,13 +4,13 @@ import React from 'react';
 import MembersOnly from '../../securityRoutes/MembersOnly/MembersOnly';
 import styles from './NavBar.module.css';
 
-const NavBar = () => {
+const NavBar = (showMenu) => {
   return (
     <nav className={styles.NavBar_container}>
       <ul>
         <li>
           <NavLink to="/" exact activeClassName="active">
-            <button type="button" className={styles.btn}>
+            <button type="button" className={styles.btn} onClick={showMenu}>
               {i18next.t('msg_home')}
             </button>
           </NavLink>
@@ -18,7 +18,7 @@ const NavBar = () => {
         <MembersOnly>
           <li>
             <NavLink to="/topics" exact activeClassName="active">
-              <button type="button" className={styles.btn}>
+              <button type="button" className={styles.btn} onClick={showMenu}>
                 {i18next.t('msg_message_board')}
               </button>
             </NavLink>
@@ -26,28 +26,28 @@ const NavBar = () => {
         </MembersOnly>
         <li>
           <NavLink to="/media" exact activeClassName="active">
-            <button type="button" className={styles.btn}>
+            <button type="button" className={styles.btn} onClick={showMenu}>
               {i18next.t('msg_media')}
             </button>
           </NavLink>
         </li>
         <li>
           <NavLink to="/events" exact activeClassName="active">
-            <button type="button" className={styles.btn}>
+            <button type="button" className={styles.btn} onClick={showMenu}>
               {i18next.t('msg_events')}
             </button>
           </NavLink>
         </li>
         <li>
           <NavLink to="/news" exact activeClassName="active">
-            <button type="button" className={styles.btn}>
+            <button type="button" className={styles.btn} onClick={showMenu}>
               {i18next.t('msg_news')}
             </button>
           </NavLink>
         </li>
         <li>
           <NavLink to="/about-us" exact activeClassName="active">
-            <button type="button" className={styles.btn}>
+            <button type="button" className={styles.btn} onClick={showMenu}>
               {i18next.t('msg_about')}
             </button>
           </NavLink>
@@ -55,7 +55,7 @@ const NavBar = () => {
         <MembersOnly>
           <li>
             <NavLink to="/users" exact activeClassName="active">
-              <button type="button" className={styles.btn}>
+              <button type="button" className={styles.btn} onClick={showMenu}>
                 {i18next.t('msg_members')}
               </button>
             </NavLink>
@@ -64,7 +64,7 @@ const NavBar = () => {
         <MembersOnly>
           <li>
             <NavLink to="/email" exact activeClassName="active">
-              <button type="button" className={styles.btn}>
+              <button type="button" className={styles.btn} onClick={showMenu}>
                 {i18next.t('msg_email')}
               </button>
             </NavLink>
