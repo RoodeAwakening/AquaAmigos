@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: 'Dutch Springs to Remain Open for Scuba Diving',
     description: 'Divers will need to be supervised by an insured dive professional and reservations will be required.',
     content: 'This is the content of the article',
@@ -8,6 +9,7 @@ export default [
     createdAt: '2020-01-06T14:52:37.000Z',
   },
   {
+    id: 2,
     title: 'Sea Lions Use Whiskers Like Humans Use Fingertips, Scientists Find',
     description: 'Scientists have found that sea lions use their whiskers like humans use their fingertips. Now we are writing even more just to test the length of a description for styling purposes.',
     content: 'This is the content of the article',
@@ -16,6 +18,7 @@ export default [
     createdAt: '2020-02-06T14:52:37.000Z',
   },
   {
+    id: 3,
     title: 'Scuba Diving YouTuber Solves Cold Cases',
     description: 'Scuba diving is a great way to get away from the cold.',
     content: 'This is the content of the article',
@@ -24,6 +27,7 @@ export default [
     createdAt: '2020-03-06T14:52:37.000Z',
   },
   {
+    id: 4,
     title: 'Pioneering Explorers Sylvia Earle and Mireya Mayor on How Exploration Powers Conservation',
     description: 'Exploration is a powerful tool for conservation.',
     content: 'This is the content of the article',

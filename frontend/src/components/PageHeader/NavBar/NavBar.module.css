@@ -78,6 +78,7 @@
   animation-fill-mode: backwards;
 }
 
+
 @media screen and (max-width: 768px){
   .NavBar_container ul{
     display: flex;
