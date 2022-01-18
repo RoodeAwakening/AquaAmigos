@@ -13,11 +13,18 @@ function PageHeader(sessionUser) {
   };
 
   useEffect(() => {
-    const pageHeaderContainer = document.getElementById('pageHeader_container');
-    if (isOpen) {
-      pageHeaderContainer.style.display = 'block';
-    } else {
-      pageHeaderContainer.style.display = 'none';
+    // update menu settings based on device size.
+    if (window.innerWidth > 768) {
+      const mobileMenuButton = document.getElementById('mobileButton');
+      mobileMenuButton.style.display = 'none';
+    }
+    if (window.innerWidth < 768) {
+      const pageHeaderContainer = document.getElementById('pageHeader_container');
+      if (isOpen) {
+        pageHeaderContainer.style.display = 'block';
+      } else {
+        pageHeaderContainer.style.display = 'none';
+      }
     }
   }, [isOpen]);
 
@@ -37,8 +44,8 @@ function PageHeader(sessionUser) {
         <div className={styles.pageHeader_middle_logo}>
           <img src={logo} alt="logo" />
         </div>
-        <div className={styles.pageHeader_mobile__button}>
-          <button type="button" className={styles.btn_mobile} onClick={showMenu}>
+        <div className={styles.pageHeader_mobile__button} id="mobileButton">
+          <button type="button" className={styles.btn_mobile} id="btn_mobile" onClick={showMenu}>
             <i className="fas fa-bars" />
           </button>
         </div>
