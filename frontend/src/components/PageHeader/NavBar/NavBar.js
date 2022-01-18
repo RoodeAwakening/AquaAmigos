@@ -1,10 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import i18next from 'i18next';
 import React from 'react';
+import PropTypes from 'prop-types';
 import MembersOnly from '../../securityRoutes/MembersOnly/MembersOnly';
 import styles from './NavBar.module.css';
 
-const NavBar = (showMenu) => {
+const NavBar = ({ showMenu }) => {
   return (
     <nav className={styles.NavBar_container}>
       <ul>
@@ -74,6 +75,14 @@ const NavBar = (showMenu) => {
       </ul>
     </nav>
   );
+};
+
+NavBar.defaultProps = {
+  showMenu: {},
+};
+
+NavBar.propTypes = {
+  showMenu: PropTypes.func,
 };
 
 export default NavBar;
