@@ -40,9 +40,11 @@ exports[` Page Header Snapshot  Should render the page header and should match s
     </div>
     <div
       className="pageHeader_mobile__button"
+      id="mobileButton"
     >
       <button
         className="btn_mobile"
+        id="btn_mobile"
         onClick={[Function]}
         type="button"
       >
