@@ -7,7 +7,6 @@ function RecentNews() {
   const articles = NewsArticles;
   const renderNews = () => {
     return articles.slice(0, 3).map((article) => {
-      console.log(article);
       return (
         <div className={styles.recentNews_article__container} key={article.id}>
           <ContentBlock
