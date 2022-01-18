@@ -6,6 +6,14 @@
   align-items: center;
 }
 
+#pageHeader_container{
+  /* blue gradient from the center out */
+  display: block;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .pageHeader_mobile{
   display: none;
 }
@@ -39,7 +47,6 @@
 
 @media screen and (max-width: 768px){
 .pageHeader_mobile{
-  /* opposite of display none */
   display: flex;
   justify-content: space-around;
   align-items: center;
