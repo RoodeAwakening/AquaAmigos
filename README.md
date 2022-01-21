@@ -136,3 +136,10 @@ of your Heroku app in the url and tag name:
    ```bash=3
    docker push registry.heroku.com/{NAME_OF_HEROKU_APP}/web
    ```
+### FRONT END SETUP
+
+1. 
+```bash
+cd frontend && npm i
+```
+!!!IMPORTANT: If you have difficulty installing "cd frontend && npm i" delete the yarn.lock file, package-lock.json file and node_modules file. Then retry cd frontend && npm i
