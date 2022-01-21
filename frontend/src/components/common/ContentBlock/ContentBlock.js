@@ -17,7 +17,7 @@ function ContentBlock({
         <h2>{truncate(title, 50)}</h2>
       </div>
       <div className={styles.contentBlock__text_bottom}>
-        <p>{truncate(description, 120)}</p>
+        <p>{truncate(description, 100)}</p>
         <p>{ `${i18next.t('msg_news_post_writtenBy')} ${writtenBy}`}</p>
       </div>
     </div>
