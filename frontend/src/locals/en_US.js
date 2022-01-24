@@ -28,6 +28,8 @@ const translation = {
   msg_news: 'News',
   msg_users: 'Users',
   msg_members: 'Members',
+  msg_team_members: 'Team Members',
+  msg_team_members_sub: 'These people help make diving fun!',
   msg_about: 'About Us',
   msg_contact: 'Contact',
   msg_merchandise: 'Merchandise',
