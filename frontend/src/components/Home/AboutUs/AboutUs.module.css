@@ -39,6 +39,7 @@
 }
 .s6__frame:hover > .s6__in_out_alert {
   transform: translateY(0);
+  
 }
 .s6__in_out_alert {
   position: absolute;
