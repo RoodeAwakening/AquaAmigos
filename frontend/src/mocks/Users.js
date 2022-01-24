@@ -74,4 +74,42 @@ export default [
     updated_at: '2020-05-06T14:52:37.000Z',
     aboutMe: 'I love to help people with their diving needs.',
   },
+  {
+    id: 6,
+    userName: 'TacosForMe',
+    uerIcon: 'https://images.squarespace-cdn.com/content/v1/53ed0e3ce4b0c296acaeae80/1584577511464-8FDZYWQVXUI1OBS4VTZP/Bonneville14082-Edit-DHWEB%2BNick%2BFerguson%2BDenver%2BBroncos%2BHeadshot%2BPhotography%2Bby%2BAaron%2BLucy%2BDenver%2BColorado%2BHeadshots%2BPhotographer.jpg?format=2500w',
+    email: 'iLike2Dive@aol.com',
+    password: 'avbi',
+    role: 'editor',
+    position: 5,
+    title: 'Trustee',
+    first_name: 'Greg',
+    last_name: 'Williams',
+    created_at: '2020-05-06T14:52:37.000Z',
+    updated_at: '2020-05-06T14:52:37.000Z',
+    aboutMe: 'Making sure the club is running smoothly is my passion. When I am not diving I like to cook and bake.',
+  },
+  {
+    id: 7,
+    userName: 'Tomorrow',
+    uerIcon: 'https://ephotovn.com/wp-content/uploads/2019/10/basic-headshot-retouching-af.jpg',
+    email: 'iDive@aol.com',
+    password: 'avb24i',
+    role: 'editor',
+    position: 5,
+    title: 'Trustee',
+    first_name: 'Brian',
+    last_name: 'DeSimone',
+    created_at: '2020-05-06T14:52:37.000Z',
+    updated_at: '2020-05-06T14:52:37.000Z',
+    aboutMe: 'My love for the ocean is what makes me a great swimmer.',
+  },
 ];
+
+// President - position: 1 - role: admin
+// Vide-President - position: 2 - role: admin
+// Secretary - position: 3 - role: editor
+// Treasurer - position: 4 - role: editor
+// Trustee - position: 5 - role: editor
+// committee chairman - position: 6 - role: editor
+// member - position: 0 - role: member
