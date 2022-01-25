@@ -2,7 +2,7 @@ import React from 'react';
 import ContentBlock from '../../common/ContentBlock/ContentBlock';
 import ContentHeader from '../../common/ContentHeader/ContentHeader';
 import ResponsiveBlock from '../../common/ResponsiveBlock/ResponsiveBlock';
-import upcomingEventsHelper from '../AboutUs/helper/upcomingEvents';
+import upcomingEventsHelper from '../helper/upcomingEvents';
 import Events from '../../../mocks/Event';
 
 function UpcomingEvents() {

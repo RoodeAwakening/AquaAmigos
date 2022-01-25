@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './AboutUs.module.css';
 
 import Users from '../../../mocks/Users';
-import verifyTeamMember from './helper/sortTeamMembers';
+import verifyTeamMember from '../helper/sortTeamMembers';
 import ContentHeader from '../../common/ContentHeader/ContentHeader';
 import ResponsiveBlock from '../../common/ResponsiveBlock/ResponsiveBlock';
 import ContentBlock from '../../common/ContentBlock/ContentBlock';
