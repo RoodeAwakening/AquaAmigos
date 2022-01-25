@@ -4,6 +4,7 @@ import i18next from 'i18next';
 import { NavLink } from 'react-router-dom';
 import styles from './Carousel.module.css';
 import mockEvent from '../../../mocks/Event';
+import pastEventsScroller from '../helper/sortPastEvents';
 
 function Carousel() {
   const events = mockEvent;
@@ -33,7 +34,7 @@ function Carousel() {
 
   const renderEvents = () => {
     // return the 3 most recent events
-    return events.slice(0, 3).map((event) => {
+    return pastEventsScroller(events).map((event) => {
       return (
         <div key={event.id} className={styles.carousel_event_container}>
           <div className={styles.carousel_event_image_container}>
