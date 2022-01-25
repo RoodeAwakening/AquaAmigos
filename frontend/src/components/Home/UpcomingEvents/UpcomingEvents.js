@@ -22,7 +22,7 @@ function UpcomingEvents() {
     <section>
       <ContentHeader header="msg_upcoming_events" subHeader="msg_upcoming_events_check_out" />
       <ResponsiveBlock>
-        {upcomingEventsSorted.length && upcomingEventsSorted};
+        {upcomingEventsSorted.length && upcomingEventsSorted}
       </ResponsiveBlock>
     </section>
   );
