@@ -5,6 +5,8 @@ import toJson from 'enzyme-to-json';
 import Adapter from 'enzyme-adapter-react-16';
 import AboutUs from '../AboutUs/AboutUs';
 import Users from '../../../mocks/Users';
+import verifyTeamMember from '../helper/sortTeamMembers';
+import ContentBlock from '../../common/ContentBlock/ContentBlock';
 
 configure({ adapter: new Adapter() });
 global.confirm = () => true;
@@ -25,26 +27,19 @@ describe('AboutUs Component', () => {
   });
 
   it('Should render all Users that dont have a position number of 0', () => {
-    const members = Users.filter(user => user.position > 0);
-    // sort members from lowest to highest position number
-    members.sort((a, b) => a.position - b.position);
-
-    members.map((user) => {
+    const leaders = verifyTeamMember(Users).map((user) => {
       return (
-        <div className="about_us__frame">
-          <img
-            src={user.userIcon}
-            alt="Team Members"
+        <>
+          <ContentBlock
+            key={user.id}
+            title={`${user.title} - ${user.first_name} ${user.last_name}`}
+            description={`${user.aboutMe} `}
+            articleImage={user.userIcon}
           />
-          <div className="about_us__in_out_alert">
-            <h3 className="userTitle">{user.title}</h3>
-            <h3 className="userName">{`${user.first_name} ${user.last_name}`}</h3>
-            <h3 className="aboutMe">{user.aboutMe}</h3>
-          </div>
-        </div>
+        </>
       );
     });
 
-    expect(aboutUs.find('.about_us__members').children().length).toEqual(1);
+    expect(leaders.length).toEqual(7);
   });
 });
