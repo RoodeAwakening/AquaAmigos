@@ -1032,7 +1032,7 @@
     "core-js-pure" "^3.19.0"
     "regenerator-runtime" "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   "integrity" "sha1-fz40v4vbut8D+7ex6g2SlWnJSHo="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/@babel/runtime/-/runtime-7.16.5.tgz"
   "version" "7.16.5"
@@ -1453,7 +1453,7 @@
     "schema-utils" "^2.6.5"
     "source-map" "^0.7.3"
 
-"@popperjs/core@^2.0.0", "@popperjs/core@^2.6.0":
+"@popperjs/core@^2.10.2":
   "integrity" "sha1-gwvq7EtAkanpOYrFD4Zd3qUhhrk="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/@popperjs/core/-/core-2.11.2.tgz"
   "version" "2.11.2"
@@ -3030,6 +3030,11 @@
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/boolbase/-/boolbase-1.0.0.tgz"
   "version" "1.0.0"
 
+"bootstrap@^5.1.3":
+  "integrity" "sha1-uggbDBMPgQ+nCQCsvBxtPCj6jzQ="
+  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/bootstrap/-/bootstrap-5.1.3.tgz"
+  "version" "5.1.3"
+
 "brace-expansion@^1.1.7":
   "integrity" "sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/brace-expansion/-/brace-expansion-1.1.11.tgz"
@@ -3570,7 +3575,7 @@
     "isobject" "^3.0.0"
     "static-extend" "^0.1.1"
 
-"classnames@^2.2.3", "classnames@^2.2.5":
+"classnames@^2.2.5":
   "integrity" "sha1-38+jiR4wbsHa0QXQ6I9EF7hTXo4="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/classnames/-/classnames-2.3.1.tgz"
   "version" "2.3.1"
@@ -4587,14 +4592,6 @@
   "version" "0.2.0"
   dependencies:
     "utila" "~0.4"
-
-"dom-helpers@^5.0.1":
-  "integrity" "sha1-2UAFNrK/giWtmP4FLgKUUaxA6QI="
-  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/dom-helpers/-/dom-helpers-5.2.1.tgz"
-  "version" "5.2.1"
-  dependencies:
-    "@babel/runtime" "^7.8.7"
-    "csstype" "^3.0.2"
 
 "dom-serializer@^1.0.1", "dom-serializer@^1.3.2":
   "integrity" "sha1-YgZDfTLO767HFhgDIwx6ILwbTZE="
@@ -8196,7 +8193,7 @@
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/loglevel/-/loglevel-1.8.0.tgz"
   "version" "1.8.0"
 
-"loose-envify@^1.0.0", "loose-envify@^1.1.0", "loose-envify@^1.2.0", "loose-envify@^1.3.1", "loose-envify@^1.4.0":
+"loose-envify@^1.1.0", "loose-envify@^1.2.0", "loose-envify@^1.3.1", "loose-envify@^1.4.0":
   "integrity" "sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/loose-envify/-/loose-envify-1.4.0.tgz"
   "version" "1.4.0"
@@ -10293,7 +10290,7 @@
     "object.assign" "^4.1.0"
     "reflect.ownkeys" "^0.2.0"
 
-"prop-types@^15.0.0", "prop-types@^15.5.8", "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.0":
+"prop-types@^15.0.0", "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.0":
   "integrity" "sha1-0jfmJMRamEbkafXzERf5cAF/9Yg="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/prop-types/-/prop-types-15.8.0.tgz"
   "version" "15.8.0"
@@ -10517,7 +10514,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0", "react-dom@^16.0.0-0", "react-dom@>=16.6.0", "react-dom@>=16.8.0":
+"react-dom@*", "react-dom@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0", "react-dom@^16.0.0-0", "react-dom@>=16.8.0":
   "integrity" "sha1-etg47Cmnd/s8dcOhkPZhz5Kri4k="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/react-dom/-/react-dom-16.14.0.tgz"
   "version" "16.14.0"
@@ -10531,11 +10528,6 @@
   "integrity" "sha1-D+JttPqF2du4YkcpWA6Q5xWaWaY="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/react-error-overlay/-/react-error-overlay-6.0.10.tgz"
   "version" "6.0.10"
-
-"react-fast-compare@^3.0.1":
-  "integrity" "sha1-ZBqdqBtqYyDycOiXJPtFoLOeQ7s="
-  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/react-fast-compare/-/react-fast-compare-3.2.0.tgz"
-  "version" "3.2.0"
 
 "react-i18next@^11.15.2":
   "integrity" "sha1-W7vxqyCNf7d9k6qBYeBrfVX7Nf8="
@@ -10560,14 +10552,6 @@
   "integrity" "sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
-
-"react-popper@^2.2.4":
-  "integrity" "sha1-EhTvPOyGMwoXFnGk+8vutl7ljpY="
-  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/react-popper/-/react-popper-2.2.5.tgz"
-  "version" "2.2.5"
-  dependencies:
-    "react-fast-compare" "^3.0.1"
-    "warning" "^4.0.2"
 
 "react-redux@^7.2.6":
   "integrity" "sha1-SWM6JP5VK1+cr1j+uKE4k23f6ao="
@@ -10702,17 +10686,7 @@
     "react-is" "^16.8.6"
     "scheduler" "^0.19.1"
 
-"react-transition-group@^4.4.2":
-  "integrity" "sha1-i1mlbwnO17VcvVPDZ2i5IokNVHA="
-  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/react-transition-group/-/react-transition-group-4.4.2.tgz"
-  "version" "4.4.2"
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    "dom-helpers" "^5.0.1"
-    "loose-envify" "^1.4.0"
-    "prop-types" "^15.6.2"
-
-"react@*", "react@^0.14 || ^15.0.0 || ^16.0.0-alpha", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0", "react@^16.0.0-0", "react@^16.14.0", "react@^16.8.0 || ^17", "react@^16.8.3 || ^17", "react@>= 16", "react@>= 16.8.0", "react@>=15", "react@>=16.6.0", "react@>=16.8.0", "react@0.13.x || 0.14.x || ^15.0.0-0 || ^16.0.0-0":
+"react@*", "react@^0.14 || ^15.0.0 || ^16.0.0-alpha", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0", "react@^16.0.0-0", "react@^16.14.0", "react@^16.8.3 || ^17", "react@>= 16", "react@>= 16.8.0", "react@>=15", "react@>=16.8.0", "react@0.13.x || 0.14.x || ^15.0.0-0 || ^16.0.0-0":
   "integrity" "sha1-lNd23dCqo32j7aj8W2sYpMmjEU0="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/react/-/react-16.14.0.tgz"
   "version" "16.14.0"
@@ -10720,18 +10694,6 @@
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
     "prop-types" "^15.6.2"
-
-"reactstrap@^9.0.1":
-  "integrity" "sha1-prIFhh8+g9pVBjvAS6Ggaelp8h0="
-  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/reactstrap/-/reactstrap-9.0.1.tgz"
-  "version" "9.0.1"
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-    "@popperjs/core" "^2.6.0"
-    "classnames" "^2.2.3"
-    "prop-types" "^15.5.8"
-    "react-popper" "^2.2.4"
-    "react-transition-group" "^4.4.2"
 
 "read-pkg-up@^1.0.1":
   "integrity" "sha1-nWPBMnbAZZGNV/ACpX9AobZD+wI="
@@ -13010,13 +12972,6 @@
   "version" "1.0.8"
   dependencies:
     "makeerror" "1.0.12"
-
-"warning@^4.0.2":
-  "integrity" "sha1-Fungd+uKhtavfWSqHgX9hbRnjKM="
-  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/warning/-/warning-4.0.3.tgz"
-  "version" "4.0.3"
-  dependencies:
-    "loose-envify" "^1.0.0"
 
 "watchpack-chokidar2@^2.0.1":
   "integrity" "sha1-OFAAcu5uzmbzdpk2lQ6hdxvhyVc="

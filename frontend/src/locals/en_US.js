@@ -45,6 +45,8 @@ const translation = {
   msg_search_no_results: 'No results found',
   msg_search_no_results_for: 'No results found for',
   msg_search_no_results_for_query: 'No results found for query',
+  msg_news_header: 'Recent news',
+  msg_news_sub: 'Check out the most recent news articles',
   msg_upcoming_events: 'Upcoming Events',
   msg_past_events: 'Past Events',
   msg_event_details: 'Event Details',

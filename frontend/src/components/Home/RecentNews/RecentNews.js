@@ -1,5 +1,6 @@
 import React from 'react';
 import ContentBlock from '../../common/ContentBlock/ContentBlock';
+import ContentHeader from '../../common/ContentHeader/ContentHeader';
 import styles from './RecentNews.module.css';
 import NewsArticles from '../../../mocks/NewsArticles';
 
@@ -24,9 +25,14 @@ function RecentNews() {
   return (
     <div className={styles.recentNews_container}>
       { NewsArticles.length && (
-        <>
-          {renderNews()}
-        </>
+        <div>
+          <ContentHeader header="msg_news_header" subHeader="msg_news_sub" />
+          <div className={styles.recentNews__articles}>
+            <div className={styles.about_us__members_alignment}>
+              {renderNews()}
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
