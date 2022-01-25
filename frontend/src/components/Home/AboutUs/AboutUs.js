@@ -12,6 +12,7 @@ function AboutUs() {
     return (
       <>
         <ContentBlock
+          key={user.id}
           title={`${user.title} - ${user.first_name} ${user.last_name}`}
           description={`${user.aboutMe} `}
           articleImage={user.userIcon}

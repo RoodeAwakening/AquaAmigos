@@ -10,6 +10,16 @@ export default [
     updated_at: '2020-05-06T14:52:37.000Z',
   },
   {
+    id: '14424',
+    title: 'Florida Diving',
+    description: 'Enjoying some sunshine!',
+    coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR572n3eH8c3uMy9T-p22r2EBa5HTAEHzAjOOVQhwzu8esFu6i4vkm29JP3nSaVl7G4sCY&usqp=CAU',
+    start_date: '2022-02-06T14:52:37.000Z',
+    end_date: '2022-02-08T14:52:37.000Z',
+    created_at: '2020-05-06T14:52:37.000Z',
+    updated_at: '2020-05-06T14:52:37.000Z',
+  },
+  {
     id: '7379',
     title: 'A really cool trip we took',
     description: 'No way will you believe what we saw on this dive',
