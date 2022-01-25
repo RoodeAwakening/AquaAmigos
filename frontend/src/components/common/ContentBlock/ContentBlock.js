@@ -22,9 +22,11 @@ function ContentBlock({
         <h5 className={styles.description}>{truncate(description, 100)}</h5>
         {link
           && (
-          <NavLink to={link}>
-            {i18next.t('msg_learn_more')}
-          </NavLink>
+            <div className={styles.learnMore_button}>
+              <NavLink to={link}>
+                {i18next.t('msg_learn_more')}
+              </NavLink>
+            </div>
           )
         }
       </div>
