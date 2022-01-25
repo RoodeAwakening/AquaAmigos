@@ -13,42 +13,49 @@ exports[`AboutUs Component Should render the AboutUs component to match the snap
       articleImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcg4Y51XjQ-zSf87X4nUPTQzsF83eFdZswTg&usqp=CAU"
       description="Loved diving since the age of 5 and now I get to help run a scuba club. "
       key="1"
+      link=""
       title="President - Jacob Smith"
     />
     <ContentBlock
       articleImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNXtFTglXjnFYetM_ceM1h8Uzx6-FS19WHObUPV2UUYZdOHGNgrDBppJ16sRAJQZ-DdoI&usqp=CAU"
       description="Look how long I can hold my breath! "
       key="2"
+      link=""
       title="Vice President - Susan Williams"
     />
     <ContentBlock
       articleImage="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
       description="I love to help people with their diving needs. "
       key="3"
+      link=""
       title="Secretary - John Doe"
     />
     <ContentBlock
       articleImage="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80"
       description="Keeping the club afloat is my passion. "
       key="4"
+      link=""
       title="Treasurer - Jane Doe"
     />
     <ContentBlock
       articleImage="https://images.squarespace-cdn.com/content/v1/53ed0e3ce4b0c296acaeae80/1584577511464-8FDZYWQVXUI1OBS4VTZP/Bonneville14082-Edit-DHWEB%2BNick%2BFerguson%2BDenver%2BBroncos%2BHeadshot%2BPhotography%2Bby%2BAaron%2BLucy%2BDenver%2BColorado%2BHeadshots%2BPhotographer.jpg?format=2500w"
       description="Making sure the club is running smoothly is my passion. When I am not diving I like to cook and bake. "
       key="6"
+      link=""
       title="Trustee - Greg Williams"
     />
     <ContentBlock
       articleImage="https://ephotovn.com/wp-content/uploads/2019/10/basic-headshot-retouching-af.jpg"
       description="My love for the ocean is what makes me a great swimmer. "
       key="7"
+      link=""
       title="Trustee - Brian DeSimone"
     />
     <ContentBlock
       articleImage="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
       description="I love to help the club grow and make sure it is a great place to dive. "
       key="8"
+      link=""
       title="Web Committee - Logan Vai"
     />
   </ResponsiveBlock>

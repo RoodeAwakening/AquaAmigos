@@ -16,6 +16,7 @@ function RecentNews() {
             description={article.description}
             articleImage={article.articleImage}
             writtenBy={article.writtenBy}
+            link={`news/${article.id}`}
           />
         </>
       );
