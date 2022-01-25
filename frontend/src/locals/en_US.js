@@ -39,6 +39,7 @@ const translation = {
   msg_events: 'Events',
   msg_cart: 'Cart',
   msg_checkout: 'Checkout',
+  msg_learn_more: 'Learn more',
   msg_search: 'Search',
   msg_search_placeholder: 'Search...',
   msg_search_results: 'Search Results',
