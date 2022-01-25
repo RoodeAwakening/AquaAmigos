@@ -1,4 +1,4 @@
-import verifyTeamMember from '../AboutUs/helper/sortTeamMembers';
+import verifyTeamMember from '../helper/sortTeamMembers';
 import Users from '../../../mocks/Users';
 
 describe('verifyTeamMembers', () => {
