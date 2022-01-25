@@ -1,0 +1,80 @@
+.about_us__members{
+  height: auto;
+  width: 90vw;
+  position: relative;
+}
+
+.about_us__members_alignment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* wrap content to another row if overflow */
+  flex-wrap: wrap;
+  position: absolute;
+}
+
+.about_us__frame {
+  position: relative;
+  width: 200px;
+  height: 255px;
+  margin: 3em;
+  overflow: hidden;
+  /* center content */
+  display: flex;
+  justify-content: center;
+  box-shadow: #615d5da1 0px 13px 10px;
+}
+
+.about_us__frame img {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  /* center */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about_us__frame:hover > .about_us__in_out_alert {
+  transform: translateY(0);
+  
+}
+.about_us__in_out_alert {
+  position: absolute;
+  display: flex;
+  padding: 2em 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: white;
+  transition: all 0.5s;
+  transform: translateY(100%);
+}
+
+.about_us__in_out_alert > h3 {
+  margin: 0;
+  line-height: 1.3;
+}
+.about_us__in_out_alert > h2:first-of-type {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  color: #545252;
+}
+.about_us__in_out_alert > h3:last-child {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  color: #545252;
+}
+.userName{
+  text-align: center;
+  width: 100%;
+  background-color: rgba(9, 9, 245, 0.459);
+}
+
+.userTitle, .aboutMe{
+  text-align: center;
+}

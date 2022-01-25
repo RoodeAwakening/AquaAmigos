@@ -24,3 +24,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.AboutUs_container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
