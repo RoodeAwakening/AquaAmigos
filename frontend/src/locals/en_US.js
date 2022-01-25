@@ -48,6 +48,7 @@ const translation = {
   msg_news_header: 'Recent news',
   msg_news_sub: 'Check out the most recent news articles',
   msg_upcoming_events: 'Upcoming Events',
+  msg_upcoming_events_check_out: 'Check out some of our upcoming events.',
   msg_past_events: 'Past Events',
   msg_event_details: 'Event Details',
   msg_event_id: 'Event ID',

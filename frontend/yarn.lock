@@ -8565,6 +8565,11 @@
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
 
+"moment@^2.29.1":
+  "integrity" "sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M="
+  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/moment/-/moment-2.29.1.tgz"
+  "version" "2.29.1"
+
 "moo@^0.5.0":
   "integrity" "sha1-eq5/OEubCfYgtqv29067zRtl28Q="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/moo/-/moo-0.5.1.tgz"
