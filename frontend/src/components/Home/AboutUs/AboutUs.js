@@ -4,6 +4,7 @@ import styles from './AboutUs.module.css';
 import Users from '../../../mocks/Users';
 import verifyTeamMember from './helper/sortTeamMembers';
 import ContentHeader from '../../common/ContentHeader/ContentHeader';
+import ResponsiveBlock from '../../common/ResponsiveBlock/ResponsiveBlock';
 
 function AboutUs() {
   const leaders = verifyTeamMember(Users).map((user) => {
@@ -26,11 +27,14 @@ function AboutUs() {
   return (
     <section className={styles.about_us__container}>
       <ContentHeader header="msg_team_members" subHeader="msg_team_members_sub" />
-      <div className={styles.about_us__members}>
+      {/* <div className={styles.about_us__members}>
         <div className={styles.about_us__members_alignment}>
           {leaders}
         </div>
-      </div>
+      </div> */}
+      <ResponsiveBlock>
+        {leaders}
+      </ResponsiveBlock>
     </section>
   );
 }

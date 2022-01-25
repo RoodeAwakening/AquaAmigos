@@ -1,0 +1,14 @@
+.ResponsiveBlock_container{
+  height: auto;
+  width: 90vw;
+  position: relative;
+}
+
+.ResponsiveBlock_container__alignment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* wrap content to another row if overflow */
+  flex-wrap: wrap;
+  position: absolute;
+}

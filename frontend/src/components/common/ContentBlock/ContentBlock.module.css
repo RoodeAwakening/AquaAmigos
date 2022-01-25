@@ -9,9 +9,13 @@
   box-shadow: #615d5da1 0px 13px 10px;
 }
 
+
+
 .contentBlock__image{
   width: 325px;
-  height: auto;
+  height: 245px;
+  /* image stretch to fill */
+  object-fit: cover;
   overflow: hidden;
   
 }
