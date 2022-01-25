@@ -59,7 +59,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ignore-pattern src/**/*.test.js src/*.js src/**/*.js --fix",
-    "testOnce": "react-scripts test --watchAll=false "
+    "testOnce": "react-scripts test --watchAll=false --passWithNoTests"
   },
   "eslintConfig": {
     "extends": [
