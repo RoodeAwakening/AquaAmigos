@@ -14,6 +14,7 @@ function UpcomingEvents() {
           title={event.title}
           description={event.description}
           articleImage={event.coverImage}
+          link={`events/${event.id}`}
         />
       </>
     );
