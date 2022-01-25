@@ -3,14 +3,10 @@ import i18next from 'i18next';
 import styles from './AboutUs.module.css';
 
 import Users from '../../../mocks/Users';
+import verifyTeamMember from './helper/sortTeamMembers';
 
 function AboutUs() {
-//  only display the members with a position number grate than 0
-  const members = Users.filter(user => user.position > 0);
-  // sort members from lowest to highest position number
-  members.sort((a, b) => a.position - b.position);
-
-  const leaders = members.map((user) => {
+  const leaders = verifyTeamMember(Users).map((user) => {
     return (
 
       <div className={styles.about_us__frame}>

@@ -39,7 +39,7 @@ position: relative;
 }
 .about_us__frame {
   position: relative;
-  width: 255px;
+  width: 200px;
   height: 255px;
   margin: 3em;
   overflow: hidden;
@@ -50,13 +50,13 @@ position: relative;
 }
 
 .about_us__frame img {
-  /* position: absolute; */
+  position: absolute;
   height: 100%;
   width: auto;
   /* center */
-  /* top: 50%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
 }
 .about_us__frame:hover > .about_us__in_out_alert {
   transform: translateY(0);
