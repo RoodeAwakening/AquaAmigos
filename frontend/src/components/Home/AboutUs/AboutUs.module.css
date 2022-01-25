@@ -1,8 +1,3 @@
-.about_us__titles {
-  margin-bottom: 4em;
-  text-align: center;
-}
-
 .about_us__members{
   height: auto;
   width: 90vw;
@@ -18,19 +13,6 @@
   position: absolute;
 }
 
-
-.about_us__titles h1 {
-  font-size: 3em;
-  margin-bottom: 0.8em;
-  font-weight: 100;
-  text-transform: capitalize;
-  letter-spacing: 2px;
-}
-.about_us__titles h4 {
-  font-size: 0.9em;
-  font-weight: 100;
-  color: dimgray;
-}
 .about_us__frame {
   position: relative;
   width: 200px;

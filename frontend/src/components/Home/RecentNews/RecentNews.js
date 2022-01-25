@@ -1,6 +1,6 @@
 import React from 'react';
-import i18next from 'i18next';
 import ContentBlock from '../../common/ContentBlock/ContentBlock';
+import ContentHeader from '../../common/ContentHeader/ContentHeader';
 import styles from './RecentNews.module.css';
 import NewsArticles from '../../../mocks/NewsArticles';
 
@@ -26,10 +26,7 @@ function RecentNews() {
     <div className={styles.recentNews_container}>
       { NewsArticles.length && (
         <div>
-          <div className={styles.recentNews__titles}>
-            <h1>{i18next.t('msg_news_header')}</h1>
-            <h4>{i18next.t('msg_news_sub')}</h4>
-          </div>
+          <ContentHeader header="msg_news_header" subHeader="msg_news_sub" />
           <div className={styles.recentNews__articles}>
             <div className={styles.about_us__members_alignment}>
               {renderNews()}

@@ -1,9 +1,9 @@
 import React from 'react';
-import i18next from 'i18next';
 import styles from './AboutUs.module.css';
 
 import Users from '../../../mocks/Users';
 import verifyTeamMember from './helper/sortTeamMembers';
+import ContentHeader from '../../common/ContentHeader/ContentHeader';
 
 function AboutUs() {
   const leaders = verifyTeamMember(Users).map((user) => {
@@ -25,10 +25,7 @@ function AboutUs() {
 
   return (
     <section className={styles.about_us__container}>
-      <div className={styles.about_us__titles}>
-        <h1>{i18next.t('msg_team_members')}</h1>
-        <h4>{i18next.t('msg_team_members_sub')}</h4>
-      </div>
+      <ContentHeader header="msg_team_members" subHeader="msg_team_members_sub" />
       <div className={styles.about_us__members}>
         <div className={styles.about_us__members_alignment}>
           {leaders}
