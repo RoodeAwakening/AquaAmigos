@@ -11,14 +11,17 @@ function ContentBlock({
     return str?.length > n ? `${str.substr(0, n - 1)}...` : str;
   };
   return (
-    <div className={styles.contentBlock_container}>
-      <img src={articleImage} alt="article" className={styles.contentBlock__image} />
-      <div className={styles.contentBlock__text_top}>
-        <h2>{truncate(title, 50)}</h2>
-      </div>
-      <div className={styles.contentBlock__text_bottom}>
-        <p>{truncate(description, 100)}</p>
-        {writtenBy && <p>{ `${i18next.t('msg_news_post_writtenBy')} ${writtenBy}`}</p>}
+    <div className={styles.contentBlock_container__wrapper}>
+
+      <div className={styles.contentBlock_container}>
+        <img src={articleImage} alt="article" className={styles.contentBlock__image} />
+        <div className={styles.contentBlock__text_top}>
+          <h2>{truncate(title, 50)}</h2>
+        </div>
+        <div className={styles.contentBlock__text_bottom}>
+          <p>{truncate(description, 100)}</p>
+          {writtenBy && <p>{ `${i18next.t('msg_news_post_writtenBy')} ${writtenBy}`}</p>}
+        </div>
       </div>
     </div>
   );

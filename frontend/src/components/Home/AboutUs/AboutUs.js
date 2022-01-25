@@ -25,17 +25,12 @@ function AboutUs() {
   });
 
   return (
-    <section className={styles.about_us__container}>
+    <div className={styles.about_us__container}>
       <ContentHeader header="msg_team_members" subHeader="msg_team_members_sub" />
-      {/* <div className={styles.about_us__members}>
-        <div className={styles.about_us__members_alignment}>
-          {leaders}
-        </div>
-      </div> */}
       <ResponsiveBlock>
         {leaders}
       </ResponsiveBlock>
-    </section>
+    </div>
   );
 }
 

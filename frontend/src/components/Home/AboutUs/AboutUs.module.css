@@ -1,18 +1,6 @@
-.about_us__members{
-  height: auto;
-  width: 90vw;
-  position: relative;
-}
+.about_us__container{
 
-.about_us__members_alignment{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* wrap content to another row if overflow */
-  flex-wrap: wrap;
-  position: absolute;
 }
-
 .about_us__frame {
   position: relative;
   width: 200px;
