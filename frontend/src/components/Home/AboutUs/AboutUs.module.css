@@ -31,14 +31,14 @@
   display: flex;
   padding: 2em 0;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: space-between;
+  align-items: space-around;
   width: 100%;
   left: 0;
   bottom: 0;
   background: white;
   transition: all 0.5s;
-  transform: translateY(100%);
+  transform: translateY(83%);
 }
 
 .about_us__in_out_alert > h3 {
@@ -57,10 +57,13 @@
   letter-spacing: 1.6px;
   color: #545252;
 }
+
 .userName{
+  position: absolute;
+  top: 0;
   text-align: center;
   width: 100%;
-  background-color: rgba(9, 9, 245, 0.459);
+  height: 35px;
 }
 
 .userTitle, .aboutMe{

@@ -20,6 +20,12 @@ function UpcomingEvents() {
         <div>
           <ContentBlock title="Boat Dive Trip" description="come dive in the water" articleImage="https://www.sunrise-divers.com/wp-content/uploads/2017/02/local-dive-trips.jpg" />
         </div>
+        <div>
+          <ContentBlock title="Boat Dive Trip" description="come dive in the water" articleImage="https://www.sunrise-divers.com/wp-content/uploads/2017/02/local-dive-trips.jpg" />
+        </div>
+        <div>
+          <ContentBlock title="Boat Dive Trip" description="come dive in the water" articleImage="https://www.sunrise-divers.com/wp-content/uploads/2017/02/local-dive-trips.jpg" />
+        </div>
       </ResponsiveBlock>
     </section>
   );
