@@ -10,6 +10,16 @@ export default [
     updated_at: '2020-05-06T14:52:37.000Z',
   },
   {
+    id: '14424',
+    title: 'Florida Diving',
+    description: 'Enjoying some sunshine!',
+    coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR572n3eH8c3uMy9T-p22r2EBa5HTAEHzAjOOVQhwzu8esFu6i4vkm29JP3nSaVl7G4sCY&usqp=CAU',
+    start_date: '2022-02-06T14:52:37.000Z',
+    end_date: '2022-02-08T14:52:37.000Z',
+    created_at: '2020-05-06T14:52:37.000Z',
+    updated_at: '2020-05-06T14:52:37.000Z',
+  },
+  {
     id: '7379',
     title: 'A really cool trip we took',
     description: 'No way will you believe what we saw on this dive',
@@ -39,5 +49,37 @@ export default [
     created_at: '2020-05-06T14:52:37.000Z',
     updated_at: '2020-05-06T14:52:37.000Z',
   },
+  // create events with a start and end date in the future
+  {
+    id: '1424',
+    title: 'Spring Dive',
+    description: 'Please tell me winter is over!',
+    coverImage: 'https://divebuddies4life.com/app/uploads/Joey-in-the-Clear-water-of-Ginnie-Springs-1.jpg',
+    start_date: '2022-04-06T14:52:37.000Z',
+    end_date: '2022-04-09T14:52:37.000Z',
+    created_at: '2020-05-06T14:52:37.000Z',
+    updated_at: '2020-05-06T14:52:37.000Z',
+  },
+  {
+    id: '7379',
+    title: 'Dive into the ocean',
+    description: 'We are going to dive into the ocean',
+    coverImage: 'https://www.justaddwaterscuba.com/assets/slider/1_1473959956.jpg',
+    start_date: '2022-05-06T14:52:37.000Z',
+    end_date: '2022-05-09T14:52:37.000Z',
+    created_at: '2020-05-06T14:52:37.000Z',
+    updated_at: '2020-05-06T14:52:37.000Z',
+  },
+  {
+    id: '4593',
+    title: 'Lets dive for treasure',
+    description: 'We are going to dive for treasure',
+    coverImage: 'https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/import/2012/files/_images/201206/arch-in-pothole-sink.jpg?itok=LB9-sxOZ',
+    start_date: '2022-06-06T14:52:37.000Z',
+    end_date: '2022-06-09T14:52:37.000Z',
+    created_at: '2020-05-06T14:52:37.000Z',
+    updated_at: '2020-05-06T14:52:37.000Z',
+  },
+
 
 ];

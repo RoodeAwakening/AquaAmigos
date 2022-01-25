@@ -1453,6 +1453,11 @@
     "schema-utils" "^2.6.5"
     "source-map" "^0.7.3"
 
+"@popperjs/core@^2.10.2":
+  "integrity" "sha1-gwvq7EtAkanpOYrFD4Zd3qUhhrk="
+  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/@popperjs/core/-/core-2.11.2.tgz"
+  "version" "2.11.2"
+
 "@rollup/plugin-node-resolve@^7.1.1":
   "integrity" "sha1-gN44Tt+9e/yRARZJEPhgeBUaPso="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/@rollup/plugin-node-resolve/-/plugin-node-resolve-7.1.3.tgz"
@@ -3024,6 +3029,11 @@
   "integrity" "sha1-aN/1++YMUes3cl6p4+0xDcwed24="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/boolbase/-/boolbase-1.0.0.tgz"
   "version" "1.0.0"
+
+"bootstrap@^5.1.3":
+  "integrity" "sha1-uggbDBMPgQ+nCQCsvBxtPCj6jzQ="
+  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/bootstrap/-/bootstrap-5.1.3.tgz"
+  "version" "5.1.3"
 
 "brace-expansion@^1.1.7":
   "integrity" "sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0="
@@ -8554,6 +8564,11 @@
   "integrity" "sha1-PrXtYmInVteaXw4qIh3+utdcL34="
   "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
+
+"moment@^2.29.1":
+  "integrity" "sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M="
+  "resolved" "https://artifactory.sie.sony.com/artifactory/api/npm/pucl-npm-release-virtual/moment/-/moment-2.29.1.tgz"
+  "version" "2.29.1"
 
 "moo@^0.5.0":
   "integrity" "sha1-eq5/OEubCfYgtqv29067zRtl28Q="

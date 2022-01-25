@@ -1,6 +1,8 @@
 import React from 'react';
+import AboutUs from '../AboutUs/AboutUs';
 import Carousel from '../Carousel/Carousel';
 import RecentNews from '../RecentNews/RecentNews';
+import UpcomingEvents from '../UpcomingEvents/UpcomingEvents';
 import styles from './Home.module.css';
 
 function Home() {
@@ -11,6 +13,12 @@ function Home() {
       </div>
       <div className={styles.RecentNews_container}>
         <RecentNews />
+      </div>
+      <div className={styles.UpcomingEvents_container}>
+        <UpcomingEvents />
+      </div>
+      <div className={styles.AboutUs_container}>
+        <AboutUs />
       </div>
     </div>
   );
