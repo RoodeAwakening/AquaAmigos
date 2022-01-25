@@ -1,8 +1,3 @@
-.about_us__container {
-
-  
-}
-
 .about_us__titles {
   margin-bottom: 4em;
   text-align: center;
@@ -11,8 +6,7 @@
 .about_us__members{
   height: auto;
   width: 90vw;
-background-color: gold;
-position: relative;
+  position: relative;
 }
 
 .about_us__members_alignment{
@@ -46,7 +40,7 @@ position: relative;
   /* center content */
   display: flex;
   justify-content: center;
-  box-shadow: #615d5da1 0px 3px 10px;
+  box-shadow: #615d5da1 0px 13px 10px;
 }
 
 .about_us__frame img {
