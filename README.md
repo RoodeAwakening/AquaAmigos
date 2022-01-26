@@ -16,7 +16,7 @@ This is the starter for the Flask React project.
       pipenv install --dev -r dev-requirements.txt && pipenv install -r requirements.txt
       ```
       ```bash
-      cd frontend && npm i
+      cd frontend && npm i --legacy-peer-deps
       ```
 
 
