@@ -18,7 +18,7 @@ This is the starter for the Flask React project.
       ```bash
       cd frontend && npm i
       ```
-      ## required: { node: '^12.22.0 || ^14.17.0 || >=16.0.0' }
+
 
 3. Create a **.env** file based on the example with proper settings for your
    development environment
