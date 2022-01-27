@@ -10,11 +10,15 @@ This is the starter for the Flask React project.
    git clone https://github.com/appacademy-starters/python-project-starter.git
    ```
 
-2. Install dependencies
+2. Install dependencies for backend and fronent
 
       ```bash
       pipenv install --dev -r dev-requirements.txt && pipenv install -r requirements.txt
       ```
+      ```bash
+      cd frontend && npm i --legacy-peer-deps
+      ```
+
 
 3. Create a **.env** file based on the example with proper settings for your
    development environment
