@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { configure, mount } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import I18nextRender from './I18nextRender';
 import i18next from '../i18n';
 
