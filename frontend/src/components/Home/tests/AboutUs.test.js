@@ -2,7 +2,7 @@
 import React from 'react';
 import { shallow, configure } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import AboutUs from '../AboutUs/AboutUs';
 import Users from '../../../mocks/Users';
 import verifyTeamMember from '../helper/sortTeamMembers';
