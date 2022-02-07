@@ -34,7 +34,7 @@ function Carousel() {
 
   const renderEvents = () => {
     // return the 3 most recent events
-    return pastEventsScroller(events).map((event) => {
+    return pastEventsScroller(events, 3).map((event) => {
       return (
         <div key={event.id} className={styles.carousel_event_container}>
           <div className={styles.carousel_event_image_container}>

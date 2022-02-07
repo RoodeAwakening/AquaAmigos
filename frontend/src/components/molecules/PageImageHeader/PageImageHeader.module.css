@@ -1,0 +1,48 @@
+.pageImageHeader_container{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(235, 230, 230, 0.507);
+  display: block;
+  position: relative;
+
+}
+
+.pageImageHeader_image_container{
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: black;
+  
+}
+
+
+.pageImageHeader_container img{
+  /* display image from the top */
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pageImageHeader_title_container{
+  position: absolute;
+  /* absolute position in center  */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+.pageImageHeader_title_container h4 {
+  color: white;
+}
