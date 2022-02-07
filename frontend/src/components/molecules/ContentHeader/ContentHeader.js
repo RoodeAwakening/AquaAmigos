@@ -1,13 +1,14 @@
 import React from 'react';
-import i18next from 'i18next';
 import PropTypes from 'prop-types';
 import styles from './ContentHeader.module.css';
+import SectionHeader from '../../atoms/SectionHeader/SectionHeader';
+import SectionSubHeader from '../../atoms/SectionSubHeader/SectionSubHeader';
 
 function ContentHeader({ header, subHeader }) {
   return (
     <div className={styles.sectionHeader__titles}>
-      <h1>{i18next.t(header)}</h1>
-      <h4>{i18next.t(subHeader)}</h4>
+      <SectionHeader header={header} />
+      <SectionSubHeader subHeader={subHeader} />
     </div>
   );
 }

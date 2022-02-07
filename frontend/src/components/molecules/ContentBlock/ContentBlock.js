@@ -2,15 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import i18next from 'i18next';
+import truncate from '../../../helpers/truncate';
 import styles from './ContentBlock.module.css';
 
 function ContentBlock({
   title, description, articleImage, key, link,
 }) {
-  // this cuts down the length of strings
-  const truncate = (str, n) => {
-    return str?.length > n ? `${str.substr(0, n - 1)}...` : str;
-  };
   return (
     <div className={styles.contentBlock__frame} key={key}>
       <img
