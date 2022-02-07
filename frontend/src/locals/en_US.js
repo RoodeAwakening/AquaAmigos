@@ -60,6 +60,7 @@ const translation = {
   msg_event_description: 'Event Description',
   msg_event_view: 'View Event',
   msg_event_add: 'Add a new event',
+  msg_event_request_add: 'Please contact a system administrator to add an event.',
   msg_blog: 'Blog',
   msg_blog_post: 'Blog Post',
   msg_blog_post_id: 'Blog Post ID',
