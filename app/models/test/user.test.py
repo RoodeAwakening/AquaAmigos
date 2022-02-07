@@ -1,6 +1,5 @@
-import email
 import unittest
-from app.models.user import User
+from user import User
 
 
 class TestUser(unittest.TestCase):
@@ -28,3 +27,6 @@ class TestUser(unittest.TestCase):
         self.assertFalse(self.user.is_member())
         self.assertFalse(self.user.is_moderator())
         self.assertFalse(self.user.is_banned())
+
+if __name__ == '__main__':
+    unittest.main()
