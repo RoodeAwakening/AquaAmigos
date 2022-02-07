@@ -3,7 +3,7 @@ import { mount, configure } from 'enzyme';
 
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import UserIconBlock from '../../UserIconBlock/UserIconBlock';
-import mockUser from '../../../../mocks/User';
+import mockUser from '../../../../../mocks/User';
 
 configure({ adapter: new Adapter() });
 

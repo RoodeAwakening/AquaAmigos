@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import i18next from 'i18next';
 import React from 'react';
 import PropTypes from 'prop-types';
-import MembersOnly from '../../securityRoutes/MembersOnly/MembersOnly';
+import MembersOnly from '../../../securityRoutes/MembersOnly/MembersOnly';
 import styles from './NavBar.module.css';
 
 const NavBar = ({ showMenu }) => {

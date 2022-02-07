@@ -2,7 +2,7 @@
 
 import i18next from 'i18next';
 import React from 'react';
-import UserIconblock from '../../common/UserIconBlockContainer/UserIconblockContainer';
+import UserIconblock from '../../../molecules/UserIconBlockContainer/UserIconblockContainer';
 
 function UserIconBlock(sessionUser) {
   const profilePhoto = 'https://icons-for-free.com/iconfiles/png/512/business+costume+male+man+office+user+icon-1320196264882354682.png';

@@ -1,8 +1,8 @@
 import React from 'react';
-import ContentBlock from '../../common/ContentBlock/ContentBlock';
-import ContentHeader from '../../common/ContentHeader/ContentHeader';
-import ResponsiveBlock from '../../common/ResponsiveBlock/ResponsiveBlock';
-import upcomingEventsHelper from '../helper/upcomingEvents';
+import ContentBlock from '../../molecules/ContentBlock/ContentBlock';
+import ContentHeader from '../../molecules/ContentHeader/ContentHeader';
+import ResponsiveBlock from '../../atoms/ResponsiveBlock/ResponsiveBlock';
+import upcomingEventsHelper from '../../../helpers/upcomingEvents';
 import Events from '../../../mocks/Event';
 
 function UpcomingEvents() {

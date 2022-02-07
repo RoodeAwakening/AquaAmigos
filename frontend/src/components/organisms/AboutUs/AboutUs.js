@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './AboutUs.module.css';
 
 import Users from '../../../mocks/Users';
-import verifyTeamMember from '../helper/sortTeamMembers';
-import ContentHeader from '../../common/ContentHeader/ContentHeader';
-import ResponsiveBlock from '../../common/ResponsiveBlock/ResponsiveBlock';
-import ContentBlock from '../../common/ContentBlock/ContentBlock';
+import verifyTeamMember from '../../../helpers/sortTeamMembers';
+import ContentHeader from '../../molecules/ContentHeader/ContentHeader';
+import ResponsiveBlock from '../../atoms/ResponsiveBlock/ResponsiveBlock';
+import ContentBlock from '../../molecules/ContentBlock/ContentBlock';
 
 function AboutUs() {
   const leaders = verifyTeamMember(Users).map((user) => {

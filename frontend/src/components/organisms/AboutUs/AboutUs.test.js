@@ -3,10 +3,10 @@ import React from 'react';
 import { shallow, configure } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
-import AboutUs from '../AboutUs/AboutUs';
+import AboutUs from './AboutUs';
 import Users from '../../../mocks/Users';
-import verifyTeamMember from '../helper/sortTeamMembers';
-import ContentBlock from '../../common/ContentBlock/ContentBlock';
+import verifyTeamMember from '../../../helpers/sortTeamMembers';
+import ContentBlock from '../../molecules/ContentBlock/ContentBlock';
 
 configure({ adapter: new Adapter() });
 global.confirm = () => true;

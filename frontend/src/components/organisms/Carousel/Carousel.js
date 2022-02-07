@@ -4,7 +4,7 @@ import i18next from 'i18next';
 import { NavLink } from 'react-router-dom';
 import styles from './Carousel.module.css';
 import mockEvent from '../../../mocks/Event';
-import pastEventsScroller from '../helper/sortPastEvents';
+import pastEventsScroller from '../../../helpers/sortPastEvents';
 
 function Carousel() {
   const events = mockEvent;

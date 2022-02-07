@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import NavBar from '../NavBar/NavBar';
 import styles from './PageHeader.module.css';
 // import logo2 from '../../images/logo2.png';
-import logo from '../../../images/logo.jpg';
+import logo from '../../../../images/logo.jpg';
 import UserIconBlock from '../UserIconBlock/UserIconBlock';
 
 function PageHeader(sessionUser) {

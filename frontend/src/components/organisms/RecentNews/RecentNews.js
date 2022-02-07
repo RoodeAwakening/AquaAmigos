@@ -1,9 +1,9 @@
 import React from 'react';
-import ContentBlock from '../../common/ContentBlock/ContentBlock';
-import ContentHeader from '../../common/ContentHeader/ContentHeader';
+import ContentBlock from '../../molecules/ContentBlock/ContentBlock';
+import ContentHeader from '../../molecules/ContentHeader/ContentHeader';
 import styles from './RecentNews.module.css';
 import NewsArticles from '../../../mocks/NewsArticles';
-import ResponsiveBlock from '../../common/ResponsiveBlock/ResponsiveBlock';
+import ResponsiveBlock from '../../atoms/ResponsiveBlock/ResponsiveBlock';
 
 function RecentNews() {
   const articles = NewsArticles;

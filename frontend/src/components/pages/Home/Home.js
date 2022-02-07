@@ -1,8 +1,8 @@
 import React from 'react';
-import AboutUs from '../AboutUs/AboutUs';
-import Carousel from '../Carousel/Carousel';
-import RecentNews from '../RecentNews/RecentNews';
-import UpcomingEvents from '../UpcomingEvents/UpcomingEvents';
+import AboutUs from '../../organisms/AboutUs/AboutUs';
+import Carousel from '../../organisms/Carousel/Carousel';
+import RecentNews from '../../organisms/RecentNews/RecentNews';
+import UpcomingEvents from '../../organisms/UpcomingEvents/UpcomingEvents';
 import styles from './Home.module.css';
 
 function Home() {
