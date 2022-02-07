@@ -11,7 +11,7 @@ class User(db.Model, UserMixin):
     username = db.Column(db.String(40), nullable=False, unique=True)
     email = db.Column(db.String(255), nullable=False, unique=True)
     hashed_password = db.Column(db.String(255), nullable=False)
-    user_image = db.Column(db.String(255), nullable=False, default='default.jpg')
+    user_image = db.Column(db.String(255), nullable=True, default='https://banner2.cleanpng.com/20180501/cee/kisspng-underwater-diving-scuba-diving-computer-icons-scub-social-rescue-5ae8659c11cd15.4641157515251798040729.jpg')
     role = db.Column(db.String(40), nullable=False, default='member')
     position = db.Column(db.Integer, nullable=False, default=0)
     title = db.Column(db.String(40), nullable=False, default='member')
@@ -34,7 +34,7 @@ class User(db.Model, UserMixin):
         return role in ['admin', 'editor', 'member']
     
     def is_title_valid(self, title):
-        return title in ['President', 'Vice-President', 'Treasurer', 'Secretary', 'Member', 'Trustee', 'Committee Chairman']:
+        return title in ['President', 'Vice-President', 'Treasurer', 'Secretary', 'Member', 'Trustee', 'Committee Chairman']
 
     def is_position_valid(self, position):
         return position in [0, 1, 2, 3, 4, 5, 6]
