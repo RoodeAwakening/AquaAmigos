@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Snapshot Should render the navbar to match the snapshot 1`] = `
+<nav
+  className="NavBar_container"
+>
+  <ul>
+    <li>
+      <NavLink
+        activeClassName="active"
+        exact={true}
+        to="/"
+      >
+        <NavButton
+          onClick={Object {}}
+        />
+      </NavLink>
+    </li>
+    <MembersOnly>
+      <li>
+        <NavLink
+          activeClassName="active"
+          exact={true}
+          to="topics"
+        >
+          <NavButton
+            onClick={Object {}}
+          />
+        </NavLink>
+      </li>
+    </MembersOnly>
+    <li>
+      <NavLink
+        activeClassName="active"
+        exact={true}
+        to="/media"
+      >
+        <NavButton
+          onClick={Object {}}
+        />
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="active"
+        exact={true}
+        to="/events"
+      >
+        <NavButton
+          onClick={Object {}}
+        />
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="active"
+        exact={true}
+        to="/news"
+      >
+        <NavButton
+          onClick={Object {}}
+        />
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="active"
+        exact={true}
+        to="/about-us"
+      >
+        <NavButton
+          onClick={Object {}}
+        />
+      </NavLink>
+    </li>
+    <MembersOnly>
+      <li>
+        <NavLink
+          activeClassName="active"
+          exact={true}
+          to="/users"
+        >
+          <NavButton
+            onClick={Object {}}
+          />
+        </NavLink>
+      </li>
+    </MembersOnly>
+    <MembersOnly>
+      <li>
+        <NavLink
+          activeClassName="active"
+          exact={true}
+          to="/email"
+        >
+          <NavButton
+            onClick={Object {}}
+          />
+        </NavLink>
+      </li>
+    </MembersOnly>
+  </ul>
+</nav>
+`;

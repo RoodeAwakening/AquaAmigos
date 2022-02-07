@@ -1,0 +1,7 @@
+.sectionHeader__title {
+  font-size: 3em;
+  margin-bottom: 0.8em;
+  font-weight: 100;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
