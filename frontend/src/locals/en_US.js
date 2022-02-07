@@ -59,6 +59,7 @@ const translation = {
   msg_event_location: 'Event Location',
   msg_event_description: 'Event Description',
   msg_event_view: 'View Event',
+  msg_event_add: 'Add a new event',
   msg_blog: 'Blog',
   msg_blog_post: 'Blog Post',
   msg_blog_post_id: 'Blog Post ID',
