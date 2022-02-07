@@ -14,6 +14,8 @@ import PageHeader from './components/organisms/PageHeader/PageHeader';
 import * as sessionActions from './actions/sessionActions';
 import Home from './components/pages/Home/Home';
 import Email from './components/pages/Email/Email';
+import Events from './components/pages/Events/Events';
+import News from './components/pages/News/News';
 
 
 function App() {
@@ -45,6 +47,12 @@ function App() {
         </Route>
         <Route path="/sign-up" exact>
           <SignUpForm />
+        </Route>
+        <Route path="/events" exact>
+          <Events />
+        </Route>
+        <Route path="/news" exact>
+          <News />
         </Route>
         <ProtectedRoute path="/users" exact>
           <UsersList />

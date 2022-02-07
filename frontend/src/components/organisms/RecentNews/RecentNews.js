@@ -1,6 +1,6 @@
 import React from 'react';
 import ContentBlock from '../../molecules/ContentBlock/ContentBlock';
-import ContentHeader from '../../molecules/ContentHeader/ContentHeader';
+import SectionTitle from '../../molecules/SectionTitle/SectionTitle';
 import styles from './RecentNews.module.css';
 import NewsArticles from '../../../mocks/NewsArticles';
 import ResponsiveBlock from '../../atoms/ResponsiveBlock/ResponsiveBlock';
@@ -28,7 +28,7 @@ function RecentNews() {
     <section className={styles.recentNews_container}>
       { NewsArticles.length && (
         <>
-          <ContentHeader header="msg_news_header" subHeader="msg_news_sub" />
+          <SectionTitle header="msg_news_header" subHeader="msg_news_sub" />
           <ResponsiveBlock>
             {renderNews()}
           </ResponsiveBlock>

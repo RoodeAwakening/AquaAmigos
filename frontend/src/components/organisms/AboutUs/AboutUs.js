@@ -3,7 +3,7 @@ import styles from './AboutUs.module.css';
 
 import Users from '../../../mocks/Users';
 import verifyTeamMember from '../../../helpers/sortTeamMembers';
-import ContentHeader from '../../molecules/ContentHeader/ContentHeader';
+import SectionTitle from '../../molecules/SectionTitle/SectionTitle';
 import ResponsiveBlock from '../../atoms/ResponsiveBlock/ResponsiveBlock';
 import ContentBlock from '../../molecules/ContentBlock/ContentBlock';
 
@@ -23,7 +23,7 @@ function AboutUs() {
 
   return (
     <div className={styles.about_us__container}>
-      <ContentHeader header="msg_team_members" subHeader="msg_team_members_sub" />
+      <SectionTitle header="msg_team_members" subHeader="msg_team_members_sub" />
       <ResponsiveBlock>
         {leaders}
       </ResponsiveBlock>

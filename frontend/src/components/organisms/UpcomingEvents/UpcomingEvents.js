@@ -1,6 +1,6 @@
 import React from 'react';
 import ContentBlock from '../../molecules/ContentBlock/ContentBlock';
-import ContentHeader from '../../molecules/ContentHeader/ContentHeader';
+import SectionTitle from '../../molecules/SectionTitle/SectionTitle';
 import ResponsiveBlock from '../../atoms/ResponsiveBlock/ResponsiveBlock';
 import upcomingEventsHelper from '../../../helpers/upcomingEvents';
 import Events from '../../../mocks/Event';
@@ -21,7 +21,7 @@ function UpcomingEvents() {
   });
   return (
     <section>
-      <ContentHeader header="msg_upcoming_events" subHeader="msg_upcoming_events_check_out" />
+      <SectionTitle header="msg_upcoming_events" subHeader="msg_upcoming_events_check_out" />
       <ResponsiveBlock>
         {upcomingEventsSorted.length && upcomingEventsSorted}
       </ResponsiveBlock>

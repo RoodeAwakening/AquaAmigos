@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './ContentHeader.module.css';
+import styles from './SectionTitle.module.css';
 import SectionHeader from '../../atoms/SectionHeader/SectionHeader';
 import SectionSubHeader from '../../atoms/SectionSubHeader/SectionSubHeader';
 
-function ContentHeader({ header, subHeader }) {
+function SectionTitle({ header, subHeader }) {
   return (
     <div className={styles.sectionHeader__titles}>
       <SectionHeader header={header} />
@@ -13,14 +13,14 @@ function ContentHeader({ header, subHeader }) {
   );
 }
 
-ContentHeader.defaultProps = {
+SectionTitle.defaultProps = {
   header: '',
   subHeader: '',
 };
 
-ContentHeader.propTypes = {
+SectionTitle.propTypes = {
   header: PropTypes.string,
   subHeader: PropTypes.string,
 };
 
-export default ContentHeader;
+export default SectionTitle;
