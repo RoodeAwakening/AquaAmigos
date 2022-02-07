@@ -8,9 +8,23 @@ import events from '../../../mocks/Event';
 function Events() {
   const user = useSelector(state => state?.session?.user);
   // todo useEffect to get the current list of events
+  const addEvent = (e) => {
+    e.preventDefault();
+    console.log('open event modal');
+    // todo add the event to the list of events
+  };
 
-  console.log('---', user);
-  console.log(verifyMemberPosition(user));
+  const addEventOption = () => {
+    if (verifyMemberPosition(user)) {
+      return (
+        <button type="button" onClick={addEvent}>{i18next.t('msg_event_add')}</button>
+      );
+    }
+    return (
+      <div>{i18next.t('msg_event_request_add')}</div>
+    );
+  };
+
   return (
     <div>
       {/* events length minus 1 position */}
@@ -19,15 +33,22 @@ function Events() {
         title="msg_upcoming_events"
         subTitle="msg_upcoming_events_check_out"
       />
-      <p>- if position is 1 or greater - section to add an event </p>
       <div>
-        {user && verifyMemberPosition(user) ? (
-          <button type="button">{i18next.t('msg_event_add')}</button>
-        ) : (
-          <div>{i18next.t('msg_event_request_add')}</div>
-        )}
+        {addEventOption()}
       </div>
 
+      <div>
+        {/* events */}
+        {events.map(event => (
+          <div key={event.id}>
+            <h2>-----------</h2>
+            <h2>{event.title}</h2>
+            <h2>{event.description}</h2>
+            <h2>{event.start_date}</h2>
+          </div>
+        ))}
+
+      </div>
       <p>- list of events </p>
       <p>- - Title, Date, Description, Location, Image </p>
       <p>- - Title, Date, Description, Location, Image </p>
