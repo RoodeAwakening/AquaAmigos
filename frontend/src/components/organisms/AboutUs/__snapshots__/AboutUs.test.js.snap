@@ -4,7 +4,7 @@ exports[`AboutUs Component Should render the AboutUs component to match the snap
 <div
   className="about_us__container"
 >
-  <ContentHeader
+  <SectionTitle
     header="msg_team_members"
     subHeader="msg_team_members_sub"
   />
