@@ -9,11 +9,11 @@ import ProtectedRoute from './components/auth/ProtectedRoute';
 import UsersList from './components/UsersList';
 import User from './components/User';
 
-import PageHeader from './components/PageHeader/PageHeader/PageHeader';
+import PageHeader from './components/organisms/PageHeader/PageHeader';
 
 import * as sessionActions from './actions/sessionActions';
-import Home from './components/Home/Home/Home';
-import Email from './components/Email/Email';
+import Home from './components/pages/Home/Home';
+import Email from './components/pages/Email/Email';
 
 
 function App() {

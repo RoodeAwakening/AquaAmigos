@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import styles from './NavLinks.module.css';
+import NavLinkTitle from '../../atoms/NavLinkTitle/NavLinkTitle';
 
 
 function NavLinks({ link, linkName }) {
   return (
     <Link to={link}>
-      <h2 className={styles.navLinks_title}>{linkName}</h2>
+      <NavLinkTitle linkName={linkName} />
     </Link>
   );
 }
