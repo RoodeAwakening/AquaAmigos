@@ -79,6 +79,7 @@ const translation = {
   msg_blog_post_author_image_url_alt: 'Blog Post Author Image URL Alt',
   msg_blog_post_content: 'Blog Post Content',
   msg_blog_post_content_html: 'Blog Post Content HTML',
+  msg_news_page_header: 'Check out the most recent news articles',
   msg_news_post: 'News Post',
   msg_news_post_id: 'News Post ID',
   msg_news_post_title: 'News Post Title',
