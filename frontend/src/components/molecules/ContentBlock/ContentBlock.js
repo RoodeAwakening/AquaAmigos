@@ -14,7 +14,7 @@ function ContentBlock({
         src={articleImage}
         alt="content_image"
       />
-      <h4 className={styles.title}>{truncate(title, 50)}</h4>
+      <h4 className={styles.title}>{truncate(title, 40)}</h4>
       <div className={styles.contentBlock__frame__in_out_alert}>
         <h5 className={styles.description}>{truncate(description, 100)}</h5>
         {link

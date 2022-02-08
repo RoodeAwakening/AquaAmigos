@@ -1,6 +1,6 @@
 export default [
   {
-    id: '1424',
+    id: '14665',
     title: 'First Dive of the year',
     description: 'We all have a dream to dive into the ocean',
     coverImage: 'https://www.justaddwaterscuba.com/assets/slider/1_1473959956.jpg',
@@ -10,7 +10,7 @@ export default [
     updated_at: '2020-05-06T14:52:37.000Z',
   },
   {
-    id: '14424',
+    id: '647',
     title: 'Florida Diving',
     description: 'Enjoying some sunshine!',
     coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR572n3eH8c3uMy9T-p22r2EBa5HTAEHzAjOOVQhwzu8esFu6i4vkm29JP3nSaVl7G4sCY&usqp=CAU',
@@ -20,7 +20,7 @@ export default [
     updated_at: '2020-05-06T14:52:37.000Z',
   },
   {
-    id: '7379',
+    id: '0567',
     title: 'A really cool trip we took',
     description: 'No way will you believe what we saw on this dive',
     coverImage: 'https://www.tripsavvy.com/thmb/iLt6rwZZngdQsDK6R2E4jwCKwn0=/900x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-163175242-58f631e43df78ca159f2b798.jpg',
@@ -30,7 +30,7 @@ export default [
     updated_at: '2020-05-06T14:52:37.000Z',
   },
   {
-    id: '4593',
+    id: '463',
     title: 'Can you say tacos?',
     description: 'Its not only about diving, some times its about tacos.',
     coverImage: 'https://www.kooxdiving.com/wp-content/uploads/2020/08/eating-and-diving.jpg',
@@ -40,7 +40,7 @@ export default [
     updated_at: '2020-05-06T14:52:37.000Z',
   },
   {
-    id: '6464',
+    id: '606',
     title: 'Join us for a fun night',
     description: 'We are going to have a fun night with friends',
     coverImage: 'https://godivebayahibe.com/images/igallery/resized/401-500/AOW-Gallery-hero-3-twsdDI5Y-410-1536-1152-80.jpg',
@@ -51,7 +51,7 @@ export default [
   },
   // create events with a start and end date in the future
   {
-    id: '1424',
+    id: '37',
     title: 'Spring Dive',
     description: 'Please tell me winter is over!',
     coverImage: 'https://divebuddies4life.com/app/uploads/Joey-in-the-Clear-water-of-Ginnie-Springs-1.jpg',
@@ -61,7 +61,7 @@ export default [
     updated_at: '2020-05-06T14:52:37.000Z',
   },
   {
-    id: '7379',
+    id: '47',
     title: 'Dive into the ocean',
     description: 'We are going to dive into the ocean',
     coverImage: 'https://www.justaddwaterscuba.com/assets/slider/1_1473959956.jpg',
@@ -71,7 +71,7 @@ export default [
     updated_at: '2020-05-06T14:52:37.000Z',
   },
   {
-    id: '4593',
+    id: '12',
     title: 'Lets dive for treasure',
     description: 'We are going to dive for treasure',
     coverImage: 'https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/import/2012/files/_images/201206/arch-in-pothole-sink.jpg?itok=LB9-sxOZ',
