@@ -8,7 +8,7 @@ import styles from './Events.module.css';
 
 function Events() {
   const user = useSelector(state => state?.session?.user);
-  // todo useEffect to get the current list of events
+
   const addEvent = (e) => {
     e.preventDefault();
     console.log('open event modal');
@@ -28,12 +28,12 @@ function Events() {
 
   return (
     <div>
-      {/* events length minus 1 position */}
       <PageImageHeader
         imgSrc={events[events.length - 1].coverImage}
         title="msg_upcoming_events"
         subTitle="msg_upcoming_events_check_out"
       />
+
       <div>{addEventOption()}</div>
 
       <div className="accordion-flush" id={styles.event_accordian}>
